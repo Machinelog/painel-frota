@@ -1,0 +1,5 @@
+﻿PAINEL DE STATUS DA FROTA;;;;;;;;
+Cavalo;Prancha;Motorista;Localização;Destino;Status;Km rodado;Cliente;Observação
+CVM-001;PB-001;Ranyere Marcelo;Paripueira/AL;Maceio/AL;Carregado;114km;XCMG Brasil;Realizando trajeto para chegar no local de entrega
+CVM-002;PB-002;Nilvan Carneiro;Parnamirim/RN;Natal/RN;Carregado;215km;XCMG Brasil;Realizando revisão na Volvo - Gestor alinhando entrega.
+CVM-003;PB-003;Josevaldo José;Itumbiara/GO;Goiânia/GO;Carregado;292km;ARMAC;184km do destino
