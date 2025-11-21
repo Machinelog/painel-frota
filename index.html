@@ -58,29 +58,36 @@
 </div>
 
 <script>
-// Lista de arquivos CSV disponíveis (pode ser atualizado manualmente ou por script)
-const arquivosCSV = [
-    "2025-11-21_08-00.csv",
-    "2025-11-21_12-00.csv",
-    "2025-11-21_15-00.csv",
-    "2025-11-21_18-00.csv",
-    "2025-11-22_08-00.csv",
-    "2025-11-22_12-00.csv"
-];
+// Lista de CSVs será carregada do index.json
+let arquivosCSV = [];
 
-// Preencher dropdown de datas
-const selectData = document.getElementById("selectData");
-const datas = [...new Set(arquivosCSV.map(f => f.split("_")[0]))]; // pega datas únicas
-datas.sort((a,b) => a.localeCompare(b));
-datas.forEach(d => {
-    const option = document.createElement("option");
-    option.value = d;
-    option.textContent = d;
-    selectData.appendChild(option);
-});
+async function carregarListaCSV() {
+    try {
+        const resp = await fetch("historico/index.json");
+        if (!resp.ok) throw new Error("Não foi possível carregar a lista de CSVs");
+        arquivosCSV = await resp.json();
+
+        // Preencher dropdown de datas automaticamente
+        const selectData = document.getElementById("selectData");
+        const datas = [...new Set(arquivosCSV.map(f => f.split("_")[0]))];
+        datas.sort((a,b) => a.localeCompare(b));
+        datas.forEach(d => {
+            const option = document.createElement("option");
+            option.value = d;
+            option.textContent = d;
+            selectData.appendChild(option);
+        });
+
+        // Carregar CSV inicial
+        carregarCSV();
+    } catch(e) {
+        console.error(e);
+        document.getElementById("dados").innerHTML = "<tr><td colspan='9'>Erro ao carregar a lista de arquivos.</td></tr>";
+    }
+}
 
 function getCSVFile() {
-    const data = selectData.value;
+    const data = document.getElementById("selectData").value;
     const horario = document.getElementById("selectHorario").value;
     const arquivo = arquivosCSV.find(f => f.startsWith(data) && f.includes(horario));
     return arquivo ? "historico/" + arquivo : null;
@@ -89,17 +96,22 @@ function getCSVFile() {
 async function carregarCSV() {
     const arquivo = getCSVFile();
     if (!arquivo) {
-        document.getElementById("dados").innerHTML = "<tr><td colspan='9'>Nenhum arquivo encontrado para esta data/horário.</td></tr>";
+        document.getElementById("dados").innerHTML = "<tr><td colspan='9'>Status ainda não disponível para esta data/horário.</td></tr>";
         return;
     }
 
     try {
         const resp = await fetch(arquivo);
+        if (!resp.ok) {
+            document.getElementById("dados").innerHTML = "<tr><td colspan='9'>Status ainda não disponível para esta data/horário.</td></tr>";
+            return;
+        }
+
         const texto = await resp.text();
         const linhas = texto.split("\n").map(l => l.trim()).filter(l => l.length > 0);
 
         let html = "";
-        for (let i = 2; i < linhas.length; i++) { // pular título e cabeçalho
+        for (let i = 2; i < linhas.length; i++) {
             const c = linhas[i].split(";");
             html += `<tr>
                 <td>${c[0]}</td>
@@ -116,12 +128,12 @@ async function carregarCSV() {
         document.getElementById("dados").innerHTML = html;
     } catch (e) {
         console.error("Erro ao carregar CSV:", e);
-        document.getElementById("dados").innerHTML = "<tr><td colspan='9'>Erro ao carregar dados.</td></tr>";
+        document.getElementById("dados").innerHTML = "<tr><td colspan='9'>Status ainda não disponível para esta data/horário.</td></tr>";
     }
 }
 
-// Carregar CSV inicial
-carregarCSV();
+// Inicializa tudo
+carregarListaCSV();
 </script>
 
 </body>
