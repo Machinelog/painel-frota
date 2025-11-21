@@ -11,25 +11,15 @@
     .logo { text-align: center; padding: 10px 0; }
     .logo img { height: 70px; }
     h1 { text-align: center; margin: 0; padding-bottom: 10px; font-size: 26px; font-weight: bold; }
-    .tabela-container { padding: 10px; }
-    table { width: 100%; border-collapse: collapse; }
-    th { background: #0000aa; color: #fff; padding: 10px; font-size: 15px; text-align: left; }
-    td { background: #00a000; padding: 10px; font-size: 14px; border-top: 2px solid #007500; }
+    .tabela-container { padding: 10px; overflow-x: auto; } /* scroll horizontal no celular */
+    table { width: 100%; border-collapse: collapse; min-width: 900px; } /* largura mínima para caber todas as colunas */
+    th, td { padding: 10px; border: 1px solid #007500; text-align: left; }
+    th { background: #0000aa; color: #fff; font-size: 15px; }
+    td { background: #00a000; font-size: 14px; }
 
-    /* Desktop */
-    @media (min-width: 700px) {
-        table { display: table; }
-        tr { display: table-row; }
-        td, th { display: table-cell; }
-    }
-
-    /* Mobile (cards) */
+    /* Ajuste de fontes para telas pequenas */
     @media (max-width: 699px) {
-        table, thead, tbody, th, td, tr { display: block; width: 100%; }
-        thead { display: none; }
-        tr { background: #008f00; margin-bottom: 15px; padding: 10px; border-radius: 8px; }
-        td { position: relative; padding-left: 45%; border: none; border-bottom: 1px solid #007500; }
-        td:before { content: attr(data-label); position: absolute; left: 10px; top: 10px; width: 40%; font-weight: bold; color: #fff; }
+        th, td { font-size: 12px; padding: 5px; }
     }
 </style>
 </head>
@@ -63,20 +53,19 @@ async function carregarDados() {
         const linhas = texto.split("\n").map(l => l.trim()).filter(l => l.length > 0);
 
         let html = "";
-        // Pula a primeira linha de título e a linha de cabeçalho
-        for (let i = 2; i < linhas.length; i++) {
+        for (let i = 2; i < linhas.length; i++) { // pula título e cabeçalho
             const c = linhas[i].split(";");
             html += `
             <tr>
-                <td data-label="Cavalo">${c[0]}</td>
-                <td data-label="Prancha">${c[1]}</td>
-                <td data-label="Motorista">${c[2]}</td>
-                <td data-label="Localização">${c[3]}</td>
-                <td data-label="Destino">${c[4]}</td>
-                <td data-label="Status">${c[5]}</td>
-                <td data-label="Km rodado">${c[6]}</td>
-                <td data-label="Cliente">${c[7]}</td>
-                <td data-label="Observação">${c[8]}</td>
+                <td>${c[0]}</td>
+                <td>${c[1]}</td>
+                <td>${c[2]}</td>
+                <td>${c[3]}</td>
+                <td>${c[4]}</td>
+                <td>${c[5]}</td>
+                <td>${c[6]}</td>
+                <td>${c[7]}</td>
+                <td>${c[8]}</td>
             </tr>`;
         }
         document.getElementById("dados").innerHTML = html;
