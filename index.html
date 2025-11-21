@@ -4,20 +4,22 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<title>Painel de Status da Frota</title>
+<title>Painel de Status da Frota - Histórico</title>
 
 <style>
     body { font-family: Arial, sans-serif; margin: 0; background: #009b00; color: #fff; }
     .logo { text-align: center; padding: 10px 0; }
     .logo img { height: 70px; }
     h1 { text-align: center; margin: 0; padding-bottom: 10px; font-size: 26px; font-weight: bold; }
-    .tabela-container { padding: 10px; overflow-x: auto; } /* scroll horizontal no celular */
-    table { width: 100%; border-collapse: collapse; min-width: 900px; } /* largura mínima para caber todas as colunas */
+    .filtros { text-align: center; margin: 10px 0; }
+    .filtros select { font-size: 14px; padding: 5px; margin: 0 5px; }
+
+    .tabela-container { padding: 10px; overflow-x: auto; }
+    table { width: 100%; border-collapse: collapse; min-width: 900px; }
     th, td { padding: 10px; border: 1px solid #007500; text-align: left; }
     th { background: #0000aa; color: #fff; font-size: 15px; }
     td { background: #00a000; font-size: 14px; }
 
-    /* Ajuste de fontes para telas pequenas */
     @media (max-width: 699px) {
         th, td { font-size: 12px; padding: 5px; }
     }
@@ -30,7 +32,18 @@
     <img src="Machine Log_Azul.png" alt="MachineLog">
 </div>
 
-<h1>PAINEL DE STATUS DA FROTA</h1>
+<h1>PAINEL DE STATUS DA FROTA - HISTÓRICO</h1>
+
+<div class="filtros">
+    Data: <select id="selectData"></select>
+    Horário: <select id="selectHorario">
+        <option value="08-00">08:00</option>
+        <option value="12-00">12:00</option>
+        <option value="15-00">15:00</option>
+        <option value="18-00">18:00</option>
+    </select>
+    <button onclick="carregarCSV()">Atualizar</button>
+</div>
 
 <div class="tabela-container">
   <table id="tabela">
@@ -45,18 +58,50 @@
 </div>
 
 <script>
-async function carregarDados() {
-    const url = "https://raw.githubusercontent.com/mateusg-dev/painel-frota/main/frota.csv"; // CSV do GitHub
+// Lista de arquivos CSV disponíveis (pode ser atualizado manualmente ou por script)
+const arquivosCSV = [
+    "2025-11-21_08-00.csv",
+    "2025-11-21_12-00.csv",
+    "2025-11-21_15-00.csv",
+    "2025-11-21_18-00.csv",
+    "2025-11-22_08-00.csv",
+    "2025-11-22_12-00.csv"
+];
+
+// Preencher dropdown de datas
+const selectData = document.getElementById("selectData");
+const datas = [...new Set(arquivosCSV.map(f => f.split("_")[0]))]; // pega datas únicas
+datas.sort((a,b) => a.localeCompare(b));
+datas.forEach(d => {
+    const option = document.createElement("option");
+    option.value = d;
+    option.textContent = d;
+    selectData.appendChild(option);
+});
+
+function getCSVFile() {
+    const data = selectData.value;
+    const horario = document.getElementById("selectHorario").value;
+    const arquivo = arquivosCSV.find(f => f.startsWith(data) && f.includes(horario));
+    return arquivo ? "historico/" + arquivo : null;
+}
+
+async function carregarCSV() {
+    const arquivo = getCSVFile();
+    if (!arquivo) {
+        document.getElementById("dados").innerHTML = "<tr><td colspan='9'>Nenhum arquivo encontrado para esta data/horário.</td></tr>";
+        return;
+    }
+
     try {
-        const resposta = await fetch(url);
-        const texto = await resposta.text();
+        const resp = await fetch(arquivo);
+        const texto = await resp.text();
         const linhas = texto.split("\n").map(l => l.trim()).filter(l => l.length > 0);
 
         let html = "";
-        for (let i = 2; i < linhas.length; i++) { // pula título e cabeçalho
+        for (let i = 2; i < linhas.length; i++) { // pular título e cabeçalho
             const c = linhas[i].split(";");
-            html += `
-            <tr>
+            html += `<tr>
                 <td>${c[0]}</td>
                 <td>${c[1]}</td>
                 <td>${c[2]}</td>
@@ -70,12 +115,13 @@ async function carregarDados() {
         }
         document.getElementById("dados").innerHTML = html;
     } catch (e) {
-        console.error("Erro ao carregar dados:", e);
+        console.error("Erro ao carregar CSV:", e);
         document.getElementById("dados").innerHTML = "<tr><td colspan='9'>Erro ao carregar dados.</td></tr>";
     }
 }
 
-carregarDados();
+// Carregar CSV inicial
+carregarCSV();
 </script>
 
 </body>
