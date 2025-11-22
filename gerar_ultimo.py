@@ -25,3 +25,4 @@ with open(ultimo_json_path, "w") as f:
 
 print("Arquivos CSV encontrados:", csvs)
 print("Último CSV registrado:", ultimo)
+ 
