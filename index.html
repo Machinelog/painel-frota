@@ -33,9 +33,12 @@
 
 <h1>PAINEL DE STATUS DA FROTA</h1>
 
-<div style="text-align:center;">
-    <label for="historicoSelect">Escolha um horário: </label>
-    <select id="historicoSelect"></select>
+<div style="text-align:center; margin-bottom: 10px;">
+    <label for="dataSelect">Data: </label>
+    <select id="dataSelect"></select>
+
+    <label for="horaSelect" style="margin-left: 15px;">Horário: </label>
+    <select id="horaSelect"></select>
 </div>
 
 <div class="tabela-container">
@@ -64,17 +67,11 @@ async function carregarCSV(nomeArquivo) {
         const texto = await respCSV.text();
         const linhas = texto.split("\n").map(l => l.trim()).filter(l => l.length > 0);
         let html = "";
-        for (let i = 2; i < linhas.length; i++) { // pular título e cabeçalho
+        for (let i = 2; i < linhas.length; i++) {
             const c = linhas[i].split(";");
             html += `<tr>
-                <td>${c[0]}</td>
-                <td>${c[1]}</td>
-                <td>${c[2]}</td>
-                <td>${c[3]}</td>
-                <td>${c[4]}</td>
-                <td>${c[5]}</td>
-                <td>${c[6]}</td>
-                <td>${c[7]}</td>
+                <td>${c[0]}</td><td>${c[1]}</td><td>${c[2]}</td><td>${c[3]}</td>
+                <td>${c[4]}</td><td>${c[5]}</td><td>${c[6]}</td><td>${c[7]}</td>
                 <td>${c[8]}</td>
             </tr>`;
         }
@@ -85,41 +82,79 @@ async function carregarCSV(nomeArquivo) {
     }
 }
 
+function organizarArquivos(lista) {
+    const datas = {};
+
+    lista.forEach(nome => {
+        const [data, hora] = nome.replace(".csv", "").split("_");
+        if (!datas[data]) datas[data] = [];
+        datas[data].push(hora);
+    });
+
+    const datasOrdenadas = Object.keys(datas).sort();
+    datasOrdenadas.forEach(d => datas[d].sort());
+
+    return datasOrdenadas.reduce((obj, d) => (obj[d] = datas[d], obj), {});
+}
+
 async function inicializar() {
     try {
-        // Carrega ultimo.csv
         const respUltimo = await fetch("https://raw.githubusercontent.com/mateusg-dev/painel-frota/main/historico/ultimo.json?v=" + new Date().getTime());
         const dataUltimo = await respUltimo.json();
         const ultimoCSV = dataUltimo.ultimo;
 
-        // Carrega lista de todos CSVs
+        const [ultData, ultHora] = ultimoCSV.replace(".csv", "").split("_");
+
         const respHistorico = await fetch("https://raw.githubusercontent.com/mateusg-dev/painel-frota/main/historico/historico.json?v=" + new Date().getTime());
         const dataHistorico = await respHistorico.json();
-        const select = document.getElementById("historicoSelect");
 
-        dataHistorico.arquivos.forEach(arq => {
-            const option = document.createElement("option");
-            option.value = arq;
-            option.text = arq.replace(".csv","").replace("_"," ");
-            if(arq === ultimoCSV) option.selected = true;
-            select.appendChild(option);
-        });
+        const datasOrganizadas = organizarArquivos(dataHistorico.arquivos);
 
-        // Carrega automaticamente o último CSV
+        const dataSelect = document.getElementById("dataSelect");
+        const horaSelect = document.getElementById("horaSelect");
+
+        for (const data of Object.keys(datasOrganizadas)) {
+            const op = document.createElement("option");
+            op.value = data;
+            op.text = data.split("-").reverse().join("/");
+            if (data === ultData) op.selected = true;
+            dataSelect.appendChild(op);
+        }
+
+        function atualizarHoras(dataSelecionada, preSelecionar) {
+            horaSelect.innerHTML = "";
+            datasOrganizadas[dataSelecionada].forEach(hora => {
+                const op = document.createElement("option");
+                op.value = hora;
+                op.text = hora.replace("-", ":");
+                if (hora === preSelecionar) op.selected = true;
+                horaSelect.appendChild(op);
+            });
+        }
+
+        atualizarHoras(ultData, ultHora);
         carregarCSV(ultimoCSV);
 
-        // Evento para selecionar outro CSV
-        select.addEventListener("change", (e) => {
-            carregarCSV(e.target.value);
+        dataSelect.addEventListener("change", () => {
+            const data = dataSelect.value;
+            atualizarHoras(data);
+            const novoCSV = data + "_" + horaSelect.value + ".csv";
+            carregarCSV(novoCSV);
         });
 
-    } catch(e) {
+        horaSelect.addEventListener("change", () => {
+            const data = dataSelect.value;
+            const hora = horaSelect.value;
+            const novoCSV = data + "_" + hora + ".csv";
+            carregarCSV(novoCSV);
+        });
+
+    } catch (e) {
         console.error(e);
         document.getElementById("dados").innerHTML = "<tr><td colspan='9'>Erro ao inicializar o painel.</td></tr>";
     }
 }
 
-// Inicializa
 inicializar();
 </script>
 
