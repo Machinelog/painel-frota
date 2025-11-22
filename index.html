@@ -16,6 +16,11 @@
     th { background: #0000aa; color: #fff; font-size: 15px; }
     td { background: #00a000; font-size: 14px; }
 
+    /* 🔥 NÃO deixar quebrar linha no campo Cavalo */
+    td:nth-child(1) {
+        white-space: nowrap;
+    }
+
     select { margin: 10px; padding: 5px; font-size: 14px; }
 
     @media (max-width: 699px) {
