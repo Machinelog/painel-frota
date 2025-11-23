@@ -47,13 +47,13 @@
     <label for="diaSelect">Dia: </label>
     <select id="diaSelect"></select>
 
-    <label for="mesSelect" style="margin-left:10px;">Mês: </label>
+    <label for="mesSelect">Mês: </label>
     <select id="mesSelect"></select>
 
-    <label for="anoSelect" style="margin-left:10px;">Ano: </label>
+    <label for="anoSelect">Ano: </label>
     <select id="anoSelect"></select>
 
-    <label for="horaSelect" style="margin-left:15px;">Horário: </label>
+    <label for="horaSelect" style="margin-left: 15px;">Horário: </label>
     <select id="horaSelect"></select>
 </div>
 
@@ -106,22 +106,12 @@ async function carregarCSV(nomeArquivo) {
     }
 }
 
-function organizarArquivosPorComponentes(lista) {
-    const datas = {}; // datas[ano][mes][dia] = [hora1,hora2,...]
+function organizarArquivos(lista) {
+    const datas = {};
     lista.forEach(nome => {
-        const [data, hora] = nome.replace(".csv","").split("_");
-        const [ano, mes, dia] = data.split("-");
-        if (!datas[ano]) datas[ano] = {};
-        if (!datas[ano][mes]) datas[ano][mes] = {};
-        if (!datas[ano][mes][dia]) datas[ano][mes][dia] = [];
-        datas[ano][mes][dia].push(hora);
-    });
-    Object.keys(datas).forEach(ano => {
-        Object.keys(datas[ano]).forEach(mes => {
-            Object.keys(datas[ano][mes]).forEach(dia => {
-                datas[ano][mes][dia].sort();
-            });
-        });
+        const [data, hora] = nome.replace(".csv", "").split("_");
+        if (!datas[data]) datas[data] = [];
+        datas[data].push(hora);
     });
     return datas;
 }
@@ -131,78 +121,58 @@ async function inicializar() {
         const respUltimo = await fetch("historico/ultimo.json?v=" + new Date().getTime());
         const dataUltimo = await respUltimo.json();
         const ultimoCSV = dataUltimo.ultimo;
-        const [ultData, ultHora] = ultimoCSV.replace(".csv","").split("_");
+        const [ultData, ultHora] = ultimoCSV.replace(".csv", "").split("_");
         const [ultAno, ultMes, ultDia] = ultData.split("-");
 
         const respHistorico = await fetch("historico/historico.json?v=" + new Date().getTime());
         const dataHistorico = await respHistorico.json();
 
-        const datasOrganizadas = organizarArquivosPorComponentes(dataHistorico.arquivos);
+        const datasOrganizadas = organizarArquivos(dataHistorico.arquivos);
 
         const diaSelect = document.getElementById("diaSelect");
         const mesSelect = document.getElementById("mesSelect");
         const anoSelect = document.getElementById("anoSelect");
         const horaSelect = document.getElementById("horaSelect");
 
-        function atualizarDias() {
-            const ano = anoSelect.value;
-            const mes = mesSelect.value;
-            diaSelect.innerHTML = "";
-            Object.keys(datasOrganizadas[ano][mes]).sort().forEach(dia => {
-                const op = document.createElement("option");
-                op.value = dia;
-                op.text = dia;
-                if (ano===ultAno && mes===ultMes && dia===ultDia) op.selected = true;
-                diaSelect.appendChild(op);
-            });
+        // Preencher selects de ano, mês e dia
+        const anos = new Set();
+        const meses = new Set();
+        const dias = new Set();
+        for (const data of Object.keys(datasOrganizadas)) {
+            const [ano, mes, dia] = data.split("-");
+            anos.add(ano); meses.add(mes); dias.add(dia);
         }
+        Array.from(dias).sort().forEach(d => { let op = document.createElement("option"); op.value = d; op.text = d; if(d===ultDia) op.selected=true; diaSelect.appendChild(op); });
+        Array.from(meses).sort().forEach(m => { let op = document.createElement("option"); op.value = m; op.text = m; if(m===ultMes) op.selected=true; mesSelect.appendChild(op); });
+        Array.from(anos).sort().forEach(a => { let op = document.createElement("option"); op.value = a; op.text = a; if(a===ultAno) op.selected=true; anoSelect.appendChild(op); });
 
-        function atualizarMeses() {
-            const ano = anoSelect.value;
-            mesSelect.innerHTML = "";
-            Object.keys(datasOrganizadas[ano]).sort().forEach(mes => {
-                const op = document.createElement("option");
-                op.value = mes;
-                op.text = mes;
-                if (ano===ultAno && mes===ultMes) op.selected = true;
-                mesSelect.appendChild(op);
-            });
-        }
-
-        function atualizarHoras(preSelecionar=ultHora) {
-            const ano = anoSelect.value;
-            const mes = mesSelect.value;
-            const dia = diaSelect.value;
+        // Atualiza horário
+        function atualizarHoras() {
+            const dataSelecionada = `${anoSelect.value}-${mesSelect.value}-${diaSelect.value}`;
             horaSelect.innerHTML = "";
-            datasOrganizadas[ano][mes][dia].forEach(hora => {
+            if(!datasOrganizadas[dataSelecionada]) return;
+            datasOrganizadas[dataSelecionada].sort().forEach(hora => {
                 const op = document.createElement("option");
                 op.value = hora;
                 op.text = hora.replace("-", ":");
-                if (hora===preSelecionar) op.selected = true;
+                if(hora === ultHora) op.selected = true;
                 horaSelect.appendChild(op);
             });
-            const csv = `${ano}-${mes}-${dia}_${horaSelect.value}.csv`;
-            carregarCSV(csv);
         }
 
-        // Popula anos e atualiza meses/dias/horas
-        anoSelect.innerHTML = "";
-        Object.keys(datasOrganizadas).sort().forEach(ano => {
-            const op = document.createElement("option");
-            op.value = ano;
-            op.text = ano;
-            if (ano===ultAno) op.selected = true;
-            anoSelect.appendChild(op);
-        });
-
-        atualizarMeses();
-        atualizarDias();
+        // Inicializa horários e tabela
         atualizarHoras();
+        const inicialCSV = `${anoSelect.value}-${mesSelect.value}-${diaSelect.value}_${horaSelect.value}.csv`;
+        carregarCSV(inicialCSV);
 
-        anoSelect.addEventListener("change", () => { atualizarMeses(); atualizarDias(); atualizarHoras(); });
-        mesSelect.addEventListener("change", () => { atualizarDias(); atualizarHoras(); });
-        diaSelect.addEventListener("change", atualizarHoras);
-        horaSelect.addEventListener("change", atualizarHoras);
+        // Listeners para mudar tabela
+        [diaSelect, mesSelect, anoSelect, horaSelect].forEach(sel => {
+            sel.addEventListener("change", () => {
+                atualizarHoras();
+                const novoCSV = `${anoSelect.value}-${mesSelect.value}-${diaSelect.value}_${horaSelect.value}.csv`;
+                carregarCSV(novoCSV);
+            });
+        });
 
     } catch (e) {
         console.error("Erro ao inicializar o painel:", e);
