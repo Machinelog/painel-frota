@@ -1,45 +1,38 @@
-name: Atualizar ultimo.json automaticamente
+name: Atualizar ultimo.json seguro
 
-# Dispara quando houver push na pasta dados_para_painel ou manualmente
 on:
-  workflow_dispatch:   # Permite rodar manualmente pelo botão "Run workflow"
   push:
     paths:
-      - "dados_para_painel/*.csv"   # Qualquer CSV novo ou alterado dispara o workflow
+      - "historico/*.csv"   # Dispara quando um CSV novo chega em historico
 
 jobs:
   atualizar-ultimo:
     runs-on: ubuntu-latest
 
     steps:
-      # 1️⃣ Clonar repositório
       - name: Clonar repositório
         uses: actions/checkout@v3
         with:
           persist-credentials: true
 
-      # 2️⃣ Copiar CSVs da pasta dados_para_painel para historico
-      - name: Copiar CSVs para historico
-        run: |
-          mkdir -p historico
-          cp dados_para_painel/*.csv historico/
-
-      # 3️⃣ Instalar Python
       - name: Instalar Python
         uses: actions/setup-python@v4
         with:
           python-version: '3.x'
 
-      # 4️⃣ Executar script gerar_ultimo.py
-      - name: Executar gerar_ultimo.py
+      - name: Executar script gerar_ultimo.py
         run: python gerar_ultimo.py
 
-      # 5️⃣ Commit e push do historico.json e ultimo.json
-      - name: Commit e push
+      - name: Commit e push seguro
         run: |
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
-          git add historico/ultimo.json
-          git add historico/historico.json
-          git commit -m "Atualizado automaticamente pelo GitHub Actions" || echo "Nada para commitar"
-          git push
+
+          # Adiciona apenas os JSONs
+          git add historico/ultimo.json historico/historico.json
+
+          # Só commita se houver alterações
+          git diff --cached --quiet || git commit -m "Atualizado automaticamente pelo GitHub Actions"
+
+          # Push seguro: ignora se houver conflito remoto
+          git push origin main || echo "Push ignorado porque há alterações remotas"
