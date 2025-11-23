@@ -3,7 +3,7 @@ name: Atualizar Historico do Painel
 on:
   push:
     paths:
-      - 'dados_para_painel/**'   # quando você enviar novos arquivos para essa pasta
+      - 'dados_para_painel/**'   # Dispara quando novos CSVs forem enviados
 
 jobs:
   atualizar:
@@ -13,14 +13,24 @@ jobs:
       - name: Checar repositório
         uses: actions/checkout@v3
 
-      - name: Copiar arquivos da pasta dados_para_painel para historico
+      - name: Configurar Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      - name: Copiar CSVs para historico
         run: |
           mkdir -p historico
           cp dados_para_painel/* historico/ || echo "Nenhum arquivo novo"
-          
-          git config --local user.name "github-actions"
-          git config --local user.email "actions@github.com"
 
+      - name: Atualizar historico e ultimo.json
+        run: |
+          python gerar_ultimo.py
+
+      - name: Commit e push das atualizações
+        run: |
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "actions@github.com"
           git add historico/*
-          git commit -m "Atualização automática do histórico (novo CSV detectado)" || echo "Nada a commitar"
+          git commit -m "Atualização automática do histórico e ultimo.json" || echo "Nada para commitar"
           git push
