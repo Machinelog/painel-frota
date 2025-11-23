@@ -1,4 +1,4 @@
-$folder = "$env:USERPROFILE\Documents\painel-frota\dados_para_painel"
+$folder = "C:\Users\machi\OneDrive\Documentos\GitHub\painel-frota\dados_para_painel"
 
 Write-Host "Monitorando a pasta: $folder"
 Write-Host "Sempre que você salvar um CSV, ele será enviado automaticamente."
