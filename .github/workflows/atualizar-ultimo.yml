@@ -1,35 +1,41 @@
 name: Atualizar ultimo.json automaticamente
 
-# Dispara quando um CSV novo é adicionado ou modificado na pasta dados_para_painel
+# Dispara quando houver push na pasta dados_para_painel ou manualmente
 on:
   workflow_dispatch:   # Permite rodar manualmente pelo botão "Run workflow"
   push:
     paths:
-      - "dados_para_painel/*.csv"  # Rodar automaticamente ao enviar/alterar CSV
+      - "dados_para_painel/*.csv"   # Qualquer CSV novo ou alterado dispara o workflow
 
 jobs:
   atualizar-ultimo:
     runs-on: ubuntu-latest
 
     steps:
-      # Clonar repositório
+      # 1️⃣ Clonar repositório
       - name: Clonar repositório
         uses: actions/checkout@v3
         with:
           persist-credentials: true
 
-      # Instalar Python
+      # 2️⃣ Copiar CSVs da pasta dados_para_painel para historico
+      - name: Copiar CSVs para historico
+        run: |
+          mkdir -p historico
+          cp dados_para_painel/*.csv historico/
+
+      # 3️⃣ Instalar Python
       - name: Instalar Python
         uses: actions/setup-python@v4
         with:
           python-version: '3.x'
 
-      # Executar o script gerar_ultimo.py
-      - name: Executar script gerar_ultimo.py
+      # 4️⃣ Executar script gerar_ultimo.py
+      - name: Executar gerar_ultimo.py
         run: python gerar_ultimo.py
 
-      # Commit e push dos JSONs atualizados
-      - name: Commit e push do ultimo.json atualizado
+      # 5️⃣ Commit e push do historico.json e ultimo.json
+      - name: Commit e push
         run: |
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
