@@ -26,7 +26,7 @@
     td { background: #00a000; font-size: 14px; }
 
     td:nth-child(1) { white-space: nowrap; }
-    select { margin: 10px; padding: 5px; font-size: 14px; }
+    select { margin: 5px; padding: 5px; font-size: 14px; }
 
     @media (max-width: 699px) {
         th, td { font-size: 12px; padding: 5px; }
@@ -44,16 +44,13 @@
 <h1>PAINEL DE STATUS DA FROTA</h1>
 
 <div style="text-align:center; margin-bottom: 10px;">
-    <label for="diaSelect">Dia: </label>
+    <label>Dia: </label>
     <select id="diaSelect"></select>
-
-    <label for="mesSelect">Mês: </label>
+    <label>Mês: </label>
     <select id="mesSelect"></select>
-
-    <label for="anoSelect">Ano: </label>
+    <label>Ano: </label>
     <select id="anoSelect"></select>
-
-    <label for="horaSelect" style="margin-left: 15px;">Horário: </label>
+    <label style="margin-left: 15px;">Horário: </label>
     <select id="horaSelect"></select>
 </div>
 
@@ -113,7 +110,9 @@ function organizarArquivos(lista) {
         if (!datas[data]) datas[data] = [];
         datas[data].push(hora);
     });
-    return datas;
+    const datasOrdenadas = Object.keys(datas).sort();
+    datasOrdenadas.forEach(d => datas[d].sort());
+    return datasOrdenadas.reduce((obj, d) => (obj[d] = datas[d], obj), {});
 }
 
 async function inicializar() {
@@ -134,45 +133,53 @@ async function inicializar() {
         const anoSelect = document.getElementById("anoSelect");
         const horaSelect = document.getElementById("horaSelect");
 
-        // Preencher selects de ano, mês e dia
-        const anos = new Set();
-        const meses = new Set();
-        const dias = new Set();
-        for (const data of Object.keys(datasOrganizadas)) {
+        // popula dias, meses, anos
+        const dias = new Set(), meses = new Set(), anos = new Set();
+        Object.keys(datasOrganizadas).forEach(data => {
             const [ano, mes, dia] = data.split("-");
-            anos.add(ano); meses.add(mes); dias.add(dia);
-        }
-        Array.from(dias).sort().forEach(d => { let op = document.createElement("option"); op.value = d; op.text = d; if(d===ultDia) op.selected=true; diaSelect.appendChild(op); });
-        Array.from(meses).sort().forEach(m => { let op = document.createElement("option"); op.value = m; op.text = m; if(m===ultMes) op.selected=true; mesSelect.appendChild(op); });
-        Array.from(anos).sort().forEach(a => { let op = document.createElement("option"); op.value = a; op.text = a; if(a===ultAno) op.selected=true; anoSelect.appendChild(op); });
+            dias.add(dia);
+            meses.add(mes);
+            anos.add(ano);
+        });
+        [...dias].sort().forEach(d => { const op = document.createElement("option"); op.value = d; op.text = d; if(d===ultDia) op.selected=true; diaSelect.appendChild(op); });
+        [...meses].sort().forEach(m => { const op = document.createElement("option"); op.value = m; op.text = m; if(m===ultMes) op.selected=true; mesSelect.appendChild(op); });
+        [...anos].sort().forEach(a => { const op = document.createElement("option"); op.value = a; op.text = a; if(a===ultAno) op.selected=true; anoSelect.appendChild(op); });
 
-        // Atualiza horário
         function atualizarHoras() {
-            const dataSelecionada = `${anoSelect.value}-${mesSelect.value}-${diaSelect.value}`;
             horaSelect.innerHTML = "";
-            if(!datasOrganizadas[dataSelecionada]) return;
-            datasOrganizadas[dataSelecionada].sort().forEach(hora => {
+            const dia = diaSelect.value.padStart(2,'0');
+            const mes = mesSelect.value.padStart(2,'0');
+            const ano = anoSelect.value;
+            const dataStr = `${ano}-${mes}-${dia}`;
+            const horas = datasOrganizadas[dataStr] || [];
+            horas.forEach(hora => {
                 const op = document.createElement("option");
                 op.value = hora;
                 op.text = hora.replace("-", ":");
-                if(hora === ultHora) op.selected = true;
+                if(hora===ultHora) op.selected=true;
                 horaSelect.appendChild(op);
             });
+            return dataStr + "_" + horaSelect.value;
         }
 
-        // Inicializa horários e tabela
-        atualizarHoras();
-        const inicialCSV = `${anoSelect.value}-${mesSelect.value}-${diaSelect.value}_${horaSelect.value}.csv`;
-        carregarCSV(inicialCSV);
+        function atualizarCSV() {
+            const dia = diaSelect.value.padStart(2,'0');
+            const mes = mesSelect.value.padStart(2,'0');
+            const ano = anoSelect.value;
+            const hora = horaSelect.value;
+            const novoCSV = `${ano}-${mes}-${dia}_${hora}.csv`;
+            carregarCSV(novoCSV);
+        }
 
-        // Listeners para mudar tabela
-        [diaSelect, mesSelect, anoSelect, horaSelect].forEach(sel => {
-            sel.addEventListener("change", () => {
-                atualizarHoras();
-                const novoCSV = `${anoSelect.value}-${mesSelect.value}-${diaSelect.value}_${horaSelect.value}.csv`;
-                carregarCSV(novoCSV);
-            });
-        });
+        // inicializa horários e tabela
+        atualizarHoras();
+        atualizarCSV();
+
+        // listeners
+        diaSelect.addEventListener("change", () => { atualizarHoras(); atualizarCSV(); });
+        mesSelect.addEventListener("change", () => { atualizarHoras(); atualizarCSV(); });
+        anoSelect.addEventListener("change", () => { atualizarHoras(); atualizarCSV(); });
+        horaSelect.addEventListener("change", atualizarCSV);
 
     } catch (e) {
         console.error("Erro ao inicializar o painel:", e);
