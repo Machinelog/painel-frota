@@ -4,6 +4,7 @@ on:
   push:
     paths:
       - 'dados_para_painel/**'   # Dispara quando novos CSVs forem enviados
+  workflow_dispatch:             # Permite executar manualmente
 
 jobs:
   atualizar:
