@@ -85,7 +85,7 @@ async function carregarCSV(nomeArquivo) {
         let html = "";
         for (let i = 2; i < linhas.length; i++) {
             const c = linhas[i].split(";");
-            if (c.length < 9) continue; // ignora linhas inválidas
+            if (c.length < 9) continue;
             html += `<tr>
                 <td>${c[0]}</td><td>${c[1]}</td><td>${c[2]}</td><td>${c[3]}</td>
                 <td>${c[4]}</td><td>${c[5]}</td><td>${c[6]}</td><td>${c[7]}</td>
@@ -115,28 +115,24 @@ function organizarArquivos(lista) {
 async function inicializar() {
     try {
         const respUltimo = await fetch("historico/ultimo.json?v=" + new Date().getTime());
-        if (!respUltimo.ok) throw new Error("Não foi possível carregar ultimo.json");
         const dataUltimo = await respUltimo.json();
         const ultimoCSV = dataUltimo.ultimo;
-
         const [ultData, ultHora] = ultimoCSV.replace(".csv", "").split("_");
 
         const respHistorico = await fetch("historico/historico.json?v=" + new Date().getTime());
-        if (!respHistorico.ok) throw new Error("Não foi possível carregar historico.json");
         const dataHistorico = await respHistorico.json();
-
-        if (!dataHistorico.arquivos || dataHistorico.arquivos.length === 0)
-            throw new Error("Nenhum arquivo de histórico encontrado");
 
         const datasOrganizadas = organizarArquivos(dataHistorico.arquivos);
 
         const dataSelect = document.getElementById("dataSelect");
         const horaSelect = document.getElementById("horaSelect");
 
+        // Popula datas no formato DD/MM/AAAA
         for (const data of Object.keys(datasOrganizadas)) {
             const op = document.createElement("option");
+            const [ano, mes, dia] = data.split("-");
             op.value = data;
-            op.text = data.split("-").reverse().join("/");
+            op.text = `${dia}/${mes}/${ano}`;
             if (data === ultData) op.selected = true;
             dataSelect.appendChild(op);
         }
