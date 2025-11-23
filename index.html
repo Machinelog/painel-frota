@@ -25,11 +25,7 @@
     th { background: #0000aa; color: #fff; font-size: 15px; }
     td { background: #00a000; font-size: 14px; }
 
-    /* 🔥 NÃO deixar quebrar linha no campo Cavalo */
-    td:nth-child(1) {
-        white-space: nowrap;
-    }
-
+    td:nth-child(1) { white-space: nowrap; }
     select { margin: 10px; padding: 5px; font-size: 14px; }
 
     @media (max-width: 699px) {
@@ -72,7 +68,7 @@
 <script>
 async function carregarCSV(nomeArquivo) {
     try {
-        const arquivo = "https://raw.githubusercontent.com/mateusg-dev/painel-frota/main/historico/" + nomeArquivo + "?v=" + new Date().getTime();
+        const arquivo = "historico/" + nomeArquivo + "?v=" + new Date().getTime();
         const respCSV = await fetch(arquivo);
         if (!respCSV.ok) {
             document.getElementById("dados").innerHTML = "<tr><td colspan='9'>Status ainda não disponível.</td></tr>";
@@ -98,28 +94,27 @@ async function carregarCSV(nomeArquivo) {
 
 function organizarArquivos(lista) {
     const datas = {};
-
     lista.forEach(nome => {
         const [data, hora] = nome.replace(".csv", "").split("_");
         if (!datas[data]) datas[data] = [];
         datas[data].push(hora);
     });
-
     const datasOrdenadas = Object.keys(datas).sort();
     datasOrdenadas.forEach(d => datas[d].sort());
-
     return datasOrdenadas.reduce((obj, d) => (obj[d] = datas[d], obj), {});
 }
 
 async function inicializar() {
     try {
-        const respUltimo = await fetch("https://raw.githubusercontent.com/mateusg-dev/painel-frota/main/historico/ultimo.json?v=" + new Date().getTime());
+        const respUltimo = await fetch("historico/ultimo.json?v=" + new Date().getTime());
+        if (!respUltimo.ok) throw new Error("Não foi possível carregar ultimo.json");
         const dataUltimo = await respUltimo.json();
         const ultimoCSV = dataUltimo.ultimo;
 
         const [ultData, ultHora] = ultimoCSV.replace(".csv", "").split("_");
 
-        const respHistorico = await fetch("https://raw.githubusercontent.com/mateusg-dev/painel-frota/main/historico/historico.json?v=" + new Date().getTime());
+        const respHistorico = await fetch("historico/historico.json?v=" + new Date().getTime());
+        if (!respHistorico.ok) throw new Error("Não foi possível carregar historico.json");
         const dataHistorico = await respHistorico.json();
 
         const datasOrganizadas = organizarArquivos(dataHistorico.arquivos);
@@ -174,4 +169,3 @@ inicializar();
 
 </body>
 </html>
-
