@@ -1,49 +1,54 @@
 # Caminho da pasta que será monitorada
 $folder = "C:\Users\machi\OneDrive\Documentos\GitHub\painel-frota\dados_para_painel"
+$repo = "C:\Users\machi\OneDrive\Documentos\GitHub\painel-frota"
+$historico = "$repo\historico"
 
 Write-Host "Monitorando a pasta: $folder"
 Write-Host "Sempre que você salvar ou alterar um CSV, ele será enviado automaticamente."
 
 while ($true) {
-
-    # Pega CSVs novos ou modificados nos últimos 3 segundos
     $files = Get-ChildItem -Path $folder -Filter "*.csv" | Where-Object {
         (Get-Date) - $_.LastWriteTime -lt (New-TimeSpan -Seconds 3)
     }
 
     foreach ($file in $files) {
         Write-Host "Detectado CSV novo ou alterado: $($file.Name)"
+        
+        # Copia para historico
+        Copy-Item -Path $file.FullName -Destination $historico -Force
 
         # Vai para a pasta do repositório
-        Set-Location "C:\Users\machi\OneDrive\Documentos\GitHub\painel-frota"
+        Set-Location $repo
 
-        # Atualiza repositório local e tenta evitar conflitos
+        # Atualiza repositório com autostash para evitar conflito
         try {
             git pull --rebase --autostash
         } catch {
-            Write-Host "Aviso: erro ao puxar alterações remotas. Continuando..."
+            Write-Host "Não foi possível puxar alterações remotas. Continuando..."
         }
 
-        # Adiciona arquivo alterado
+        # Atualiza os JSONs
+        python gerar_ultimo.py
+
+        # Adiciona CSV e JSONs
         git add "dados_para_painel/$($file.Name)"
+        git add "historico/ultimo.json" "historico/historico.json"
 
         # Comita se houver mudanças
-        $diff = git diff --cached
-        if ($diff) {
-            git commit -m "CSV atualizado automaticamente: $($file.Name)"
-        } else {
-            Write-Host "Nenhuma mudança para commitar."
+        $hasChanges = git diff --cached --quiet
+        if (-not $hasChanges) {
+            git commit -m "Atualização automática: $($file.Name) + JSONs"
         }
 
-        # Push para o GitHub (não trava se houver conflito remoto)
+        # Push seguro
         try {
             git push origin main
-            Write-Host "CSV enviado com sucesso!"
         } catch {
-            Write-Host "Aviso: push não foi realizado devido a conflito remoto."
+            Write-Host "Push ignorado devido a alterações remotas"
         }
+
+        Write-Host "CSV e JSONs enviados com sucesso!"
     }
 
-    # Espera 2 segundos antes de checar novamente
     Start-Sleep -Seconds 2
 }
