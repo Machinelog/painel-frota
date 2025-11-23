@@ -71,14 +71,21 @@ async function carregarCSV(nomeArquivo) {
         const arquivo = "historico/" + nomeArquivo + "?v=" + new Date().getTime();
         const respCSV = await fetch(arquivo);
         if (!respCSV.ok) {
-            document.getElementById("dados").innerHTML = "<tr><td colspan='9'>Status ainda não disponível.</td></tr>";
+            document.getElementById("dados").innerHTML =
+                `<tr><td colspan='9'>Status ainda não disponível para ${nomeArquivo}</td></tr>`;
             return;
         }
         const texto = await respCSV.text();
         const linhas = texto.split("\n").map(l => l.trim()).filter(l => l.length > 0);
+        if (linhas.length < 3) {
+            document.getElementById("dados").innerHTML =
+                `<tr><td colspan='9'>Arquivo ${nomeArquivo} vazio ou incompleto.</td></tr>`;
+            return;
+        }
         let html = "";
         for (let i = 2; i < linhas.length; i++) {
             const c = linhas[i].split(";");
+            if (c.length < 9) continue; // ignora linhas inválidas
             html += `<tr>
                 <td>${c[0]}</td><td>${c[1]}</td><td>${c[2]}</td><td>${c[3]}</td>
                 <td>${c[4]}</td><td>${c[5]}</td><td>${c[6]}</td><td>${c[7]}</td>
@@ -87,8 +94,9 @@ async function carregarCSV(nomeArquivo) {
         }
         document.getElementById("dados").innerHTML = html;
     } catch (e) {
-        console.error(e);
-        document.getElementById("dados").innerHTML = "<tr><td colspan='9'>Erro ao carregar o CSV.</td></tr>";
+        console.error("Erro ao carregar CSV:", e);
+        document.getElementById("dados").innerHTML =
+            `<tr><td colspan='9'>Erro ao carregar o arquivo ${nomeArquivo}</td></tr>`;
     }
 }
 
@@ -116,6 +124,9 @@ async function inicializar() {
         const respHistorico = await fetch("historico/historico.json?v=" + new Date().getTime());
         if (!respHistorico.ok) throw new Error("Não foi possível carregar historico.json");
         const dataHistorico = await respHistorico.json();
+
+        if (!dataHistorico.arquivos || dataHistorico.arquivos.length === 0)
+            throw new Error("Nenhum arquivo de histórico encontrado");
 
         const datasOrganizadas = organizarArquivos(dataHistorico.arquivos);
 
@@ -159,8 +170,9 @@ async function inicializar() {
         });
 
     } catch (e) {
-        console.error(e);
-        document.getElementById("dados").innerHTML = "<tr><td colspan='9'>Erro ao inicializar o painel.</td></tr>";
+        console.error("Erro ao inicializar o painel:", e);
+        document.getElementById("dados").innerHTML =
+            "<tr><td colspan='9'>Erro ao inicializar o painel. Verifique os arquivos JSON.</td></tr>";
     }
 }
 
