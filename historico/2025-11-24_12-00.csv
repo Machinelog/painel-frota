@@ -1,0 +1,5 @@
+﻿PAINEL DE STATUS DA FROTA;;;;;;;;
+Cavalo;Prancha;Motorista;Localização;Destino;Status;Km rodado;Cliente;Observação
+CVM-001;PB-001;Ranyere Marcelo;Padre Carvalho/MG;Contagem/MG;Direcionado;208km;ARMAC;595km do destino
+CVM-002;PB-002;Nilvan Carneiro;São José de Mipibu/RN;Natal/RN;Carregado;0km;XCMG Brasil;Finalizou serviços na Volvo - Aguardando confirmação do local de entrega
+CVM-003;PB-003;Josevaldo José;Contagem/MG;Contagem/MG;Ag. Carregar;108km;ARMAC;Aguardando notas fiscais para iniciar carregamento
