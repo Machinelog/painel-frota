@@ -1,0 +1,5 @@
+﻿PAINEL DE STATUS DA FROTA;;;;;;;;
+Cavalo;Prancha;Motorista;Localização;Destino;Status;Km rodado;Cliente;Observação
+CVM-001;PB-001;Ranyere Marcelo;Cachoeira de Pajeú/MG;Contagem/MG;Direcionado;69km;ARMAC;707km do destino
+CVM-002;PB-002;Nilvan Carneiro;Parnamirim/RN;Natal/RN;Carregado;0km;XCMG Brasil;Correção de falha e regulagem de válvulas na Volvo (Previsão de saída as 12:00) - Descarrega a tarde
+CVM-003;PB-003;Josevaldo José;Contagem/MG;Contagem/MG;Ag. Carregar;99km;ARMAC;Aguardando confirmação do local de carregamento em Contagem
