@@ -1,0 +1,5 @@
+﻿PAINEL DE STATUS DA FROTA;;;;;;;;
+Cavalo;Prancha;Motorista;Localização;Destino;Status;Km rodado;Cliente;Observação
+CVM-001;PB-001;Ranyere Marcelo;Jequitaí/MG;Barro Alto/GO;Direcionado;456km;DOIS A;746km do destino
+CVM-002;PB-002;Nilvan Carneiro;Parnamirim/RN;João Pessoa/PB;Direcionado;35km;;166km do destino
+CVM-003;PB-003;Josevaldo José;Contagem/MG;Contagem/MG;Ag. Carregar;108km;ARMAC;Realiza carregamento amanhã em Contagem/MG
