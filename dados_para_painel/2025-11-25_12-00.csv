@@ -1,0 +1,5 @@
+﻿PAINEL DE STATUS DA FROTA;;;;;;;;
+Cavalo;Prancha;Motorista;Localização;Destino;Status;Km rodado;Cliente;Observação
+CVM-001;PB-001;Ranyere Marcelo;Paracatu/MG;Barro Alto/GO;Direcionado;280km;Veneza;347km do destino
+CVM-002;PB-002;Nilvan Carneiro;João Pessoa/PB;;Ag. Carregar;76km;Veneza;Aguardando para realizar carregamento.
+CVM-003;PB-003;Josevaldo José;Contagem/MG;;Ag. Carregar;0km;Armac;Realiza carregamento após intervalo de almoço.
