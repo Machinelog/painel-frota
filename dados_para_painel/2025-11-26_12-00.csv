@@ -1,0 +1,5 @@
+﻿PAINEL DE STATUS DA FROTA;;;;;;;;
+Cavalo;Prancha;Motorista;Localização;Destino;Status;Km rodado;Cliente;Observação
+CVM-001;PB-001;Ranyere Marcelo;Padre Bernardo/GO;Barro Alto/GO;Ag. Carregar;0km;Veneza;Aguardando em posto o cliente chamar para realizar o carregamento.
+CVM-002;PB-002;Nilvan Carneiro;Recife/PE;;Direcionado;109km;Veneza;Carrega na Veneza em Recife/PE hoje - amanhã Manoel Nilo segue a viagem. 18km do destino
+CVM-003;PB-003;Josevaldo José;Cambuí/MG;Vargem Grande Paulista/SP;Carregado;360km;Armac;199km do destino
