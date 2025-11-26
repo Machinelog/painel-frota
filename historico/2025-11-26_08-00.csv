@@ -1,0 +1,5 @@
+﻿PAINEL DE STATUS DA FROTA;;;;;;;;
+Cavalo;Prancha;Motorista;Localização;Destino;Status;Km rodado;Cliente;Observação
+CVM-001;PB-001;Ranyere Marcelo;Padre Bernardo/GO;Barro Alto/GO;Ag. Carregar;S/INF;Veneza;Aguardando em posto a chuva passar para ir ao local de carregamento conforme orientação da obra
+CVM-002;PB-002;Nilvan Carneiro;João Pessoa/PB;;Ag. Carregar;S/INF;Veneza;Carregamento previsto para hoje, aguardando orientações
+CVM-003;PB-003;Josevaldo José;Três Corações/MG;Vargem Grande Paulista/SP;Carregado;S/INF;Armac;360km do destino 
