@@ -1,0 +1,5 @@
+﻿PAINEL DE STATUS DA FROTA;;;;;;;;
+Cavalo;Prancha;Motorista;Localização;Destino;Status;Km rodado;Cliente;Observação
+CVM-001;PB-001;Ranyere Marcelo;Brasília/DF;Recife/PE;Carregado;214km;VRental;2.069km do destino
+CVM-002;PB-002;Manoel Nilo;Cabo de Santo Agostinho/PE;São Paulo/SP;Carregado;75km;Aahbrant;2.633km do destino
+CVM-003;PB-003;Josevaldo José;Mauá/SP;Pouso Alegre/MG;Carregado;138km;XCMG Investimentos;420km do destino
