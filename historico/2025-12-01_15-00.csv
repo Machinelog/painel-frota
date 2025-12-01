@@ -1,0 +1,5 @@
+﻿PAINEL DE STATUS DA FROTA;;;;;;;;
+Cavalo;Prancha;Motorista;Localização;Destino;Status;Km rodado;Cliente;Observação
+CVM-001;PB-001;Ranyere Marcelo;Paulista/PE;;Direcionado;9km;;Segue amanhã para carregar em João Pessoa/PB pela Aahbrant
+CVM-002;PB-002;Manoel Nilo;Itaguara/MG;São Paulo/SP;Carregado;457km;Aahbrant;603km do destino
+CVM-003;PB-003;Josevaldo José;Esplanada/BA;Maceio/AL;Carregado;555km;XCMG Brasil;450km do destino
