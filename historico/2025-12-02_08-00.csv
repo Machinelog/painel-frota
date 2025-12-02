@@ -1,0 +1,5 @@
+﻿PAINEL DE STATUS DA FROTA;;;;;;;;
+Cavalo;Prancha;Motorista;Localização;Destino;Status;Km rodado;Cliente;Observação
+CVM-001;PB-001;Ranyere Marcelo;Jaboatão dos Guararapes/PE;Jaboatão dos Guararapes/PE;Direcionado;28km;;Realizará troca de óleo do motor na Gotemburgo depois segue para João Pessoa/PB - 8km do destino
+CVM-002;PB-002;Manoel Nilo;Bragança Paulista/SP;São Paulo/SP;Carregado;168km;Aahbrant;89km do destino
+CVM-003;PB-003;Josevaldo José;São Sebastião/AL;Maceio/AL;Carregado;155km;XCMG Brasil;149km do destino
