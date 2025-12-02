@@ -1,0 +1,5 @@
+﻿PAINEL DE STATUS DA FROTA;;;;;;;;
+Cavalo;Prancha;Motorista;Localização;Destino;Status;Km rodado;Cliente;Observação
+CVM-001;PB-001;Ranyere Marcelo;Cabo de Santo Agostinho/PE;;Manutenção;38km;;Aguardando ser realizada a troca do óleo. Segue pra João Pessoa/PB após finalizar.
+CVM-002;PB-002;Manoel Nilo;São Bernardo do Campo/SP;São Paulo/SP;Carregado;354km;Aahbrant;14km do destino
+CVM-003;PB-003;Josevaldo José;Rio Largo/AL;Maceio/AL;Carregado;292km;XCMG Brasil;36km do destino
