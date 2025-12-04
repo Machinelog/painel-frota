@@ -1,0 +1,5 @@
+﻿PAINEL DE STATUS DA FROTA;;;;;;;;
+Cavalo;Prancha;Motorista;Localização;Destino;Status;Km rodado;Cliente;Observação
+CVM-001;PB-001;Ranyere Marcelo;Cabo de Santo Agostinho/PE;;Manutenção;0km;;Diagnosticado vazamentos no caminhão, aguardando serviço finalizar. Segue pra João Pessoa/PB após finalizar.
+CVM-002;PB-002;Manoel Nilo;Uberaba/MG;Cuiaba/MT;Carregado;414km;XCMG Brasil;1.199km do destino
+CVM-003;PB-003;Josevaldo José;Iaçu/BA;Ouvidor/GO;Direcionado;253km;;1.552km do destino
