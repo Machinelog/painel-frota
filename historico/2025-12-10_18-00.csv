@@ -1,0 +1,5 @@
+﻿PAINEL DE STATUS DA FROTA;;;;;;;;
+Cavalo;Prancha;Motorista;Localização;Destino;Status;Km rodado;Cliente;Observação
+CVM-001;PB-001;Ranyere Marcelo;Jeremoabo/BA;São Bernardo do Campo/SP;Carregado;303km;Aahbrant;2.188km do destino
+CVM-002;PB-002;Manoel Nilo;Ituiutaba/MG;Indaiatuba/SP;Direcionado;455km;XCMG Brasil;596km do destino
+CVM-003;PB-003;Josevaldo José;Pouso Alegre/MG;Pouso Alegre/MG;Ag. Descarregar;589km;XCMG Brasil;Realiza entrega amanhã na XCMG
