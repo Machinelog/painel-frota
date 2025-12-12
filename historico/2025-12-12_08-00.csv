@@ -1,0 +1,5 @@
+﻿PAINEL DE STATUS DA FROTA;;;;;;;;
+Cavalo;Prancha;Motorista;Localização;Destino;Status;Km rodado;Cliente;Observação
+CVM-001;PB-001;Ranyere Marcelo;Itatim/BA;São Bernardo do Campo/SP;Carregado;0km;Aahbrant;1.796km do destino - lavagem e lubrificação da carreta
+CVM-002;PB-002;Manoel Nilo;Petrolina do Goiás/GO;Indaiatuba/SP;Carregado;85km;Vrental;948km do destino
+CVM-003;PB-003;Josevaldo José;Pouso Alegre/MG;;Carregado;1km;XCMG Brasil;Aguardando documentação
