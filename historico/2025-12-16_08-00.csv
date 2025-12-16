@@ -1,0 +1,5 @@
+﻿PAINEL DE STATUS DA FROTA;;;;;;;;
+Cavalo;Prancha;Motorista;Localização;Destino;Status;Km rodado;Cliente;Observação
+CVM-001;PB-001;Ranyere Marcelo;Pouso Alegre/MG;São Bernardo do Campo/SP;Carregado;3km;Aahbrant;193km do destino
+CVM-002;PB-002;Manoel Nilo;São Sebastião da Bela Vista/MG;Contagem/MG;Direcionado;54km;;363km do destino
+CVM-003;PB-003;Josevaldo José;Pouso Alegre/MG;Contagem/MG;Direcionado;113km;;Segue para Contagem, faz manutenção antes.
