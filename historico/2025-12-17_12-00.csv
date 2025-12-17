@@ -1,0 +1,5 @@
+﻿PAINEL DE STATUS DA FROTA;;;;;;;;
+Cavalo;Prancha;Motorista;Localização;Destino;Status;Km rodado;Cliente;Observação
+CVM-001;PB-001;Ranyere Marcelo;Cambuí/MG;Contagem/MG;Direcionado;165km;;417km do destino
+CVM-002;PB-002;Manoel Nilo;Contagem/MG;Contagem/MG;Direcionado;74km;;Carrega as 15:00hrs
+CVM-003;PB-003;Josevaldo José;Contagem/MG;Contagem/MG;Direcionado;143km;;Carrega as 13:30hrs
