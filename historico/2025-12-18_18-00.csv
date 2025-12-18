@@ -1,0 +1,5 @@
+﻿PAINEL DE STATUS DA FROTA;;;;;;;;
+Cavalo;Prancha;Motorista;Localização;Destino;Status;Km rodado;Cliente;Observação
+CVM-001;PB-001;Ranyere Marcelo;Belo Horizonte/MG;Contagem/MG;Ag. Carregar;152km;Armac;Finalizando carregamento
+CVM-002;PB-002;Manoel Nilo;Carapicuíba/SP;Vargem Grande Paulista/SP;Carregado;564km;Armac;Chegando na Armac - entrega prevista para amanhã de manhã.
+CVM-003;PB-003;Josevaldo José;Carapicuíba/SP;Vargem Grande Paulista/SP;Carregado;558km;Armac;Chegando na Armac - entrega prevista para amanhã de manhã.
