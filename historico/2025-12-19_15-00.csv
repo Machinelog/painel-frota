@@ -1,0 +1,5 @@
+﻿PAINEL DE STATUS DA FROTA;;;;;;;;
+Cavalo;Prancha;Motorista;Localização;Destino;Status;Km rodado;Cliente;Observação
+CVM-001;PB-001;Ranyere Marcelo;Atibaia/SP;Vargem Grande Paulista/SP;Carregado;461km;Armac;105km do destino
+CVM-002;PB-002;Manoel Nilo;Vargem Grande Paulista/SP;Luís Eduardo Magalhães/BA;Carregado;7km;Armac;Aguardando pneus e documentação pra seguir viagem.
+CVM-003;PB-003;Josevaldo José;Itapeva/MG;Pouso Alegre/MG;Direcionado;316km;;Segue para Pouso Alegre para fazer revisão 
