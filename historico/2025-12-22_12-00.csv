@@ -1,5 +1,5 @@
 ﻿PAINEL DE STATUS DA FROTA;;;;;;;;
 Cavalo;Prancha;Motorista;Localização;Destino;Status;Km rodado;Cliente;Observação
-CVM-001;PB-001;Ranyere Marcelo;Itatiaiuçu/MG;Salvador/BA;Carregado;95km;Armac;1.500km do destino
-CVM-002;PB-002;Manoel Nilo;Uberaba/MG;Luís Eduardo Magalhães/BA;Carregado;9km;Armac;1.050km do destino
-CVM-003;PB-003;Josevaldo José;Pouso Alegre/MG;;Manutenção;29km;XCMG Brasil;Realizando revisão do cavalo 
+CVM-001;PB-001;Ranyere Marcelo;Contagem/MG;Salvador/BA;Carregado;125km;Armac;1.425km do destino
+CVM-002;PB-002;Manoel Nilo;Uberaba/MG;Luís Eduardo Magalhães/BA;Carregado;10km;Armac;1.050km do destino
+CVM-003;PB-003;Josevaldo José;Pouso Alegre/MG;;Ag. Carregar;36km;XCMG Brasil;Carregando na XCMG (retirada para Joel)
