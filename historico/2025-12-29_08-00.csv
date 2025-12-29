@@ -1,0 +1,5 @@
+﻿PAINEL DE STATUS DA FROTA;;;;;;;;
+Cavalo;Prancha;Motorista;Localização;Destino;Status;Km rodado;Cliente;Observação
+CVM-001;PB-001;Dorgival Pereira;Águas Vermelhas/MG;Pouso Alegre/MG;Direcionado;152km;;1.135km do destino
+CVM-002;PB-002;Manoel Nilo;Uberlândia/MG;Ananindeua/PA;Carregado;91km;XCMG Brasil;2.360km do destino
+CVM-003;PB-003;Josevaldo José;Benevides/PA;Ananindeua/PA;Carregado;0km;XCMG Brasil;Aguardando ser chamado para realizar entrega
