@@ -1,0 +1,5 @@
+﻿PAINEL DE STATUS DA FROTA;;;;;;;;
+Cavalo;Prancha;Motorista;Localização;Destino;Status;Km rodado;Cliente;Observação
+CVM-001;PB-001;Dorgival Pereira;Juazeiro/BA;Pouso Alegre/MG;Direcionado;24km;;1.994km do destino
+CVM-002;PB-002;Manoel Nilo;Uruaçu/GO;Barro Alto/GO;Direcionado;304km;;73km do destino
+CVM-003;PB-003;Josevaldo José;Alto Araguaia/MT;Rondonópolis/MT;Carregado;433km;DHL Locações;240km do destino
