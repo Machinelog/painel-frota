@@ -1,0 +1,5 @@
+﻿PAINEL DE STATUS DA FROTA;;;;;;;;
+Cavalo;Prancha;Motorista;Localização;Destino;Status;Km rodado;Cliente;Observação
+CVM-001;PB-001;Dorgival Pereira;Juazeiro/BA;Juazeiro/BA;Ag. Descarregar;9km;XCMG Brasil;Aguardando para realizar entrega no cliente e segue para borracharia
+CVM-002;PB-002;Manoel Nilo;Rio Verde/GO;Pouso Alegre/MG;Direcionado;173km;;1.333km do destino
+CVM-003;PB-003;Josevaldo José;Porangatu/GO;Rondonópolis/MT;Carregado;257km;DHL Locações;425km do destino
