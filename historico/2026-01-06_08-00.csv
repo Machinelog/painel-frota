@@ -1,0 +1,5 @@
+﻿PAINEL DE STATUS DA FROTA;;;;;;;;
+Cavalo;Prancha;Motorista;Localização;Destino;Status;Km rodado;Cliente;Observação
+CVM-001;PB-001;Dorgival Pereira;Riachão do Jacuípe/BA;Pouso Alegre/MG;Direcionado;83km;;1.726km do destino
+CVM-002;PB-002;Manoel Nilo;Jaraguá/GO;Pouso Alegre/MG;Direcionado;167km;;1.022km do destino
+CVM-003;PB-003;Josevaldo José;Santo Antônio do Leverger/MT;Nova Marilândia/MT;Carregado;140km;DHL Locações;Descarregou o trator em Rondonópolis, segue com as duas PC - 320km do destino
