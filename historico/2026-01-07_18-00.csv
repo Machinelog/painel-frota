@@ -1,0 +1,5 @@
+﻿PAINEL DE STATUS DA FROTA;;;;;;;;
+Cavalo;Prancha;Motorista;Localização;Destino;Status;Km rodado;Cliente;Observação
+CVM-001;PB-001;Dorgival Pereira;São Desidério/BA;Barro Alto/GO;Direcionado;571km;;600km do destino
+CVM-002;PB-002;Manoel Nilo;Pouso Alegre/MG;;Ag. Carregar;339km;;Realizará carregamento amanhã na XCMG
+CVM-003;PB-003;Josevaldo José;Alto Garças/MT;Pouso Alegre/MG;Direcionado;676km;;1.227km do destino
