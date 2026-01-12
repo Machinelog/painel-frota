@@ -117,13 +117,13 @@ function organizarArquivos(lista) {
 
 async function inicializar() {
     try {
-        const respUltimo = await fetch("historico/ultimo.json?v=" + new Date().getTime());
+        const respUltimo = await fetch("historico/ultimo.json?force=" + new Date().getTime());
         const dataUltimo = await respUltimo.json();
         const ultimoCSV = dataUltimo.ultimo;
         const [ultData, ultHora] = ultimoCSV.replace(".csv", "").split("_");
         const [ultAno, ultMes, ultDia] = ultData.split("-");
 
-        const respHistorico = await fetch("historico/historico.json?v=" + new Date().getTime());
+        const respHistorico = await fetch("historico/historico.json?force=" + new Date().getTime());
         const dataHistorico = await respHistorico.json();
 
         const datasOrganizadas = organizarArquivos(dataHistorico.arquivos);
@@ -193,3 +193,4 @@ inicializar();
 
 </body>
 </html>
+
