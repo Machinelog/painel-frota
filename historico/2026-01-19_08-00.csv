@@ -1,0 +1,5 @@
+﻿PAINEL DE STATUS DA FROTA;;;;;;;;
+Cavalo;Prancha;Motorista;Localização;Destino;Status;Km rodado;Cliente;Observação
+CVM-001;PB-001;Dorgival Pereira;Aracaju/SE;Aracaju/SE;Ag. Descarregar;80km;XCMG Brasil;Realizando entrega
+CVM-002;PB-002;Manoel Nilo;Santos/SP;Santos/SP;Ag. Carregar;0km;XCMG Brasil;Realizando carregamento
+CVM-003;PB-003;Josevaldo José;Benevides/PA;Belém/PA;Carregado;0km;XCMG Brasil;23km do destino
