@@ -1,0 +1,5 @@
+﻿PAINEL DE STATUS DA FROTA;;;;;;;;
+Cavalo;Prancha;Motorista;Localização;Destino;Status;Km rodado;Cliente;Observação
+CVM-001;PB-001;Ranyere Marcelo;Manoel Vitorino/BA;Pouso Alegre/MG;Direcionado;198km;XCMG Brasil;1.379km do destino
+CVM-002;PB-002;Manoel Nilo;Pouso Alegre/MG;Salvador/BA;Carregado;3km;XCMG Brasil;1.793km do destino
+CVM-003;PB-003;Josevaldo José;Palmeiras do Tocantins/TO;Pouso Alegre/MG;Direcionado;434km;XCMG Brasil;2.156km do destino
