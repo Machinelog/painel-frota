@@ -1,0 +1,5 @@
+﻿PAINEL DE STATUS DA FROTA;;;;;;;;
+Cavalo;Prancha;Motorista;Localização;Destino;Status;Km rodado;Cliente;Observação
+CVM-001;PB-001;Ranyere Marcelo;Rafael Jambeiro/BA;Pouso Alegre/MG;Direcionado;460km;XCMG Brasil;1.616km do destino
+CVM-002;PB-002;Manoel Nilo;Pouso Alegre/MG;Pouso Alegre/MG;Ag. Carregar;342km;XCMG Brasil;Retirada de carga para Joel
+CVM-003;PB-003;Josevaldo José;Paragominas/PA;Pouso Alegre/MG;Direcionado;334km;XCMG Brasil;2.600km do destino
