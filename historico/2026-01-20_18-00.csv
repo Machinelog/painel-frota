@@ -1,0 +1,5 @@
+﻿PAINEL DE STATUS DA FROTA;;;;;;;;
+Cavalo;Prancha;Motorista;Localização;Destino;Status;Km rodado;Cliente;Observação
+CVM-001;PB-001;Ranyere Marcelo;Divisa Alegre/MG;Cariacica/ES;Direcionado;447km;XCMG Brasil;759km do destino
+CVM-002;PB-002;Manoel Nilo;Oliveira/MG;Salvador/BA;Carregado;246km;XCMG Brasil;1.557km do destino
+CVM-003;PB-003;Josevaldo José;Miranorte/TO;Pouso Alegre/MG;Direcionado;828km;XCMG Brasil;1.777km do destino
