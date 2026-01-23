@@ -1,0 +1,5 @@
+﻿PAINEL DE STATUS DA FROTA;;;;;;;;
+Cavalo;Prancha;Motorista;Localização;Destino;Status;Km rodado;Cliente;Observação
+CVM-001;PB-001;Ranyere Marcelo;Cariacica/ES;Cariacica/ES;Ag. Carregar;139km;XCMG Brasil;Realizando carregamento
+CVM-002;PB-002;Manoel Nilo;Simões Filho/BA;Feira de Santana/BA;Direcionado;246km;XCMG Brasil;Seguindo para Feira de Santana onde aguardará Dorgival para assumir o caminhão
+CVM-003;PB-003;Josevaldo José;Pouso Alegre/MG;Pouso Alegre/MG;Ag. Carregar;36km;XCMG Brasil;Aguardando para fazer retirada de máquinas na XCMG
