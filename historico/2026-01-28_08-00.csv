@@ -1,0 +1,5 @@
+﻿PAINEL DE STATUS DA FROTA;;;;;;;;
+Cavalo;Prancha;Motorista;Localização;Destino;Status;Km rodado;Cliente;Observação
+CVM-001;PB-001;Ranyere Marcelo;Pouso Alegre/MG;Teresina/PI / São Luís/MA;Carregado;0km;XCMG Brasil;3.140km do destino
+CVM-002;PB-002;Dorgival Pereira;Pouso Alegre/MG;Belém/PA;Carregado;0km;XCMG Brasil;Serviço de borracharia pra seguir viagem - 2.972km do destino
+CVM-003;PB-003;Josevaldo José;Estreito/MA;Belém/PA;Carregado;114km;XCMG Brasil;690km do destino
