@@ -1,0 +1,5 @@
+﻿PAINEL DE STATUS DA FROTA;;;;;;;;
+Cavalo;Prancha;Motorista;Localização;Destino;Status;Km rodado;Cliente;Observação
+CVM-001;PB-001;Ranyere Marcelo;Feira de Santana/BA;Teresina/PI / São Luís/MA;Carregado;102km;XCMG Brasil;1.474km do destino - Checando de falha na Autotrac hoje e revisão do cavalo amanhã
+CVM-002;PB-002;Dorgival Pereira;Dom Eliseu/PA;Belém/PA;Carregado;265km;XCMG Brasil;434km do destino
+CVM-003;PB-003;Josevaldo José;Campinorte/GO;Cariacica/ES;Direcionado;636km;;1.522km do destino
