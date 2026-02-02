@@ -2,4 +2,4 @@
 Cavalo;Prancha;Motorista;Localização;Destino;Status;Km rodado;Cliente;Observação
 CVM-001;PB-001;Ranyere Marcelo;Itatim/BA;Teresina/PI / São Luís/MA;Carregado;0km;XCMG Brasil;1.580km do destino - Fará correção de falha na Autotrac hoje e revisão do cavalo amanhã
 CVM-002;PB-002;Dorgival Pereira;Itaguatins/TO;Belém/PA;Carregado;61km;XCMG Brasil;640km do destino
-CVM-003;PB-003;Josevaldo José;Nova Rosalândia/TO;Cariacica/ES;Manutenção;182km;;2.071km do destino
+CVM-003;PB-003;Josevaldo José;Nova Rosalândia/TO;Cariacica/ES;Direcionado;182km;;2.071km do destino
