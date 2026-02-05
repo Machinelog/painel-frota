@@ -1,0 +1,5 @@
+﻿PAINEL DE STATUS DA FROTA;;;;;;;;
+Cavalo;Prancha;Motorista;Localização;Destino;Status;Km rodado;Cliente;Observação
+CVM-001;PB-001;Manoel Nilo;Murué/BA;Teresina/PI / São Luís/MA;Carregado;370km;XCMG Brasil;1.167km do destino
+CVM-002;PB-002;Dorgival Pereira;Imperatriz/MA;Pouso Alegre/MG;Direcionado;139km;;2.311km do destino
+CVM-003;PB-003;Josevaldo José;Marechal Floriano/ES;Cariacica/ES;Direcionado;325km;;50km do destino
