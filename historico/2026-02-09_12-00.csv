@@ -1,0 +1,5 @@
+﻿PAINEL DE STATUS DA FROTA;;;;;;;;
+Cavalo;Prancha;Motorista;Localização;Destino;Status;Km rodado;Cliente;Observação
+CVM-001;PB-001;Manoel Nilo;Miranda do Norte/MA;Santos/SP;Direcionado;136km;;2.961km do destino
+CVM-002;PB-002;Dorgival Pereira;Santos/SP;;Ag. Carregar;315km;XCMG Brasil;Aguardando agendamento para carregamento no Eco Porto de Santos
+CVM-003;PB-003;Josevaldo José;Santos/SP;;Ag. Carregar;0km;XCMG Brasil;Finalizando carregamento no Eco Porto de Santos
