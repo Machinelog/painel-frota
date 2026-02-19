@@ -1,0 +1,5 @@
+﻿PAINEL DE STATUS DA FROTA;;;;;;;;
+Cavalo;Prancha;Motorista;Localização;Destino;Status;Km rodado;Cliente;Observação
+CVM-001;PB-001;Uruaçu/GO;Porangatu/GO;Santos/SP;Direcionado;635km;;1.245km do destino
+CVM-002;PB-002;Dorgival Pereira;Santos/SP;Santos/SP;Carregado;291km;XCMG;300km do destino - Finalizou carregamento, segue amanhã. 
+CVM-003;PB-003;Josevaldo José;Santos/SP;Santos/SP;Ag. Carregar;192km;XCMG;Realizando carregamento
