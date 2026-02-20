@@ -1,0 +1,5 @@
+﻿PAINEL DE STATUS DA FROTA;;;;;;;;
+Cavalo;Prancha;Motorista;Localização;Destino;Status;Km rodado;Cliente;Observação
+CVM-001;PB-001;Dorgival Pereira;Pilar/AL;Recife/PE;Carregado;306km;XCMG;263km do destino
+CVM-002;PB-002;Manoel Nilo;Palmas/TO;Palmas/TO;Carregado;364km;XCMG;Chegou no local de entrega
+CVM-003;PB-003;Josevaldo José;Santa Bárbara/BA;Recife/PE;Carregado;305km;XCMG;747km do destino
