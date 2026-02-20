@@ -1,0 +1,5 @@
+﻿PAINEL DE STATUS DA FROTA;;;;;;;;
+Cavalo;Prancha;Motorista;Localização;Destino;Status;Km rodado;Cliente;Observação
+CVM-001;PB-001;Dorgival Pereira;Jaboatão dos Guararapes/PE;Recife/PE;Carregado;561km;XCMG;Realizará entrega da carga segunda-feira
+CVM-002;PB-002;Manoel Nilo;Cariri do Tocantins/TO;Pouso Alegre/MG;Direcionado;626km;XCMG;1.503km do destino
+CVM-003;PB-003;Josevaldo José;Paulo Afonso/BA;Recife/PE;Carregado;626km;XCMG;437km do destino
