@@ -1,0 +1,5 @@
+﻿PAINEL DE STATUS DA FROTA;;;;;;;;
+Cavalo;Prancha;Motorista;Localização;Destino;Status;Km rodado;Cliente;Observação
+CVM-001;PB-001;Dorgival Pereira;Padre Carvalho/MG;Pouso Alegre/MG;Direcionado;346km;;971km do destino
+CVM-002;PB-002;Manoel Nilo;Santos/SP;Pouso Alegre/MG;Carregado;297km;XCMG;273km do destino
+CVM-003;PB-003;Luiz Correa;Águas Vermelhas/MG;Pouso Alegre/MG;Direcionado;14km;;1.141km do destino - em manutenção de rodas com previsão de finalizar final da tarde
