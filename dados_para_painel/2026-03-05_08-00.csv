@@ -1,0 +1,5 @@
+﻿PAINEL DE STATUS DA FROTA;;;;;;;;
+Cavalo;Prancha;Motorista;Localização;Destino;Status;Km rodado;Cliente;Observação
+CVM-001;PB-001;Dorgival Pereira;Santos/SP;Osasco/SP;Carregado;0km;XCMG;100km do destino
+CVM-002;PB-002;Manoel Nilo;Pouso Alegre/MG;;Manutenção;0km;XCMG;Revisão na Volvo - carrega no Eco Porto as 20:00
+CVM-003;PB-003;Luiz Correa;Santos/SP;Pouso Alegre/MG;Carregado;0km;XCMG;297km do destino
