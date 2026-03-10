@@ -1,0 +1,5 @@
+﻿PAINEL DE STATUS DA FROTA;;;;;;;;
+Cavalo;Prancha;Motorista;Localização;Destino;Status;Km rodado;Cliente;Observação
+CVM-001;PB-001;Dorgival Pereira;Santos/SP;Pouso Alegre/MG;Carregado;0km;XCMG;326km do destino
+CVM-002;PB-002;Manoel Nilo;Bragança Paulista/SP;Pouso Alegre/MG;Carregado;34km;XCMG;130km do destino
+CVM-003;PB-003;Luiz Correa;Igarapé/MG;Aracaju/SE[;Carregado;170km;XCMG;1.658km do destino
