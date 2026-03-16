@@ -1,0 +1,5 @@
+﻿PAINEL DE STATUS DA FROTA;;;;;;;;
+Cavalo;Prancha;Motorista;Localização;Destino;Status;Km rodado;Cliente;Observação
+CVM-001;PB-001;Dorgival Pereira;Guanambi/BA;Guanambi/BA;Ag. Descarregar;154km;XCMG;Realizando entrega no cliente - máquinas deram problema
+CVM-002;PB-002;Manoel Nilo;Cariri do Tocantins/TO;Canaã dos Carajás/PA;Carregado;330km;XCMG;837km do destino
+CVM-003;PB-003;Josevaldo José;Paraopeba/MG;Pouso Alegre/MG;Direcionado;326km;XCMG;492km do destino
