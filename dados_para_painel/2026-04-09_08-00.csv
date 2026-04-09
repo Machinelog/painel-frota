@@ -1,0 +1,6 @@
+﻿PAINEL DE STATUS DA FROTA;;;;;;;;
+Cavalo;Prancha;Motorista;Localização;Destino;Status;Km rodado;Cliente;Observação
+CVM-001;PB-001;Danilo Almeida;Cambuí/MG;Santos/SP;Direcionado;36km;XCMG;226km do destino
+CVM-002;PB-002;Manoel Nilo;Vargem Grande Paulista/SP;Vargem Grande Paulista/SP;Ag. Descarregar;140km;XCMG;Aguardando para realizar entrega na ARMAC
+CVM-003;PB-003;Josevaldo José;Acrelândia/AC;Rio Branco/AC;Carregado;S/INF;XCMG;99km do destino
+CVM-004;;Dorgival Silva;São José dos Pinhais/PR;;Manutenção;S/INF;;Serviço de correção de vazamento
