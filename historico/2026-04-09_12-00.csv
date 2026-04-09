@@ -1,0 +1,6 @@
+﻿PAINEL DE STATUS DA FROTA;;;;;;;;
+Cavalo;Prancha;Motorista;Localização;Destino;Status;Km rodado;Cliente;Observação
+CVM-001;PB-001;Danilo Almeida;Guarulhos/SP;Santos/SP;Direcionado;176km;XCMG;118km do destino
+CVM-002;PB-002;Manoel Nilo;Santos/SP;;Ag. Carregar;261km;XCMG;Carrega as 16:00 no Eco Porto
+CVM-003;PB-003;Josevaldo José;Rio Branco/AC;Pouso Alegre/MG;Direcionado;181km;;3.550km do destino
+CVM-004;;Dorgival Silva;São José dos Pinhais/PR;;Manutenção;S/INF;;Completando óleo de motor, depois segue para agência para serviço no parabrisa e limpeza da cabine
