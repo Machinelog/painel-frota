@@ -1,0 +1,6 @@
+﻿PAINEL DE STATUS DA FROTA;;;;;;;;
+Cavalo;Prancha;Motorista;Localização;Destino;Status;Km rodado;Cliente;Observação
+CVM-001;PB-001;Danilo Almeida;Pouso Alegre/MG;Pouso Alegre/MG;Carregado;0km;XCMG;Aguardando para realizar entrega na XCMG
+CVM-002;PB-002;Manoel Nilo;Pouso Alegre/MG;Pouso Alegre/MG;Carregado;0km;XCMG;Aguardando para realizar entrega na XCMG
+CVM-003;PB-003;Josevaldo José;Bom Jesus de Goiás/GO;Pouso Alegre/MG;Direcionado;154km;;755km do destino
+CVM-004;;Dorgival Silva;Cascavel/PR;Cascavel/PR;Manutenção;;;Corrigindo falha no caminhão
