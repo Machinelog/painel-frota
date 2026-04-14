@@ -1,6 +1,6 @@
 ﻿PAINEL DE STATUS DA FROTA;;;;;;;;
 Cavalo;Prancha;Motorista;Localização;Destino;Status;Km rodado;Cliente;Observação
-CVM-001;PB-001;Danilo Almeida;Santos/SP;Pouso Alegre/MG;Ag. Descarregar;18km;XCMG;Carrega no Eco Porto as 08:00
-CVM-002;PB-002;Manoel Nilo;Santos/SP;Pouso Alegre/MG;Ag. Descarregar;144km;XCMG;Carrega no Eco Porto as 08:00
+CVM-001;PB-001;Danilo Almeida;Santos/SP;Pouso Alegre/MG;Ag. Carregar;18km;XCMG;Carregando no Eco Porto
+CVM-002;PB-002;Manoel Nilo;Santos/SP;Pouso Alegre/MG;Ag. Carregar;144km;XCMG;Carregando no Eco Porto
 CVM-003;PB-003;Josevaldo José;Pirassununga/SP;Pouso Alegre/MG;Direcionado;274km;;285km do destino
 CVM-004;;Dorgival Silva;Cascavel/PR;;Direcionado;;;Testar caminhão e depois seguir para Autotrac
