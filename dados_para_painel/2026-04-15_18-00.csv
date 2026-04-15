@@ -1,0 +1,6 @@
+﻿PAINEL DE STATUS DA FROTA;;;;;;;;
+Cavalo;Prancha;Motorista;Localização;Destino;Status;Km rodado;Cliente;Observação
+CVM-001;PB-001;Danilo Almeida;Atibaia/SP;Pouso Alegre/MG;Carregado;0km;XCMG;Retido para averiguar AET e carga pela PRF- 120km do destino
+CVM-002;PB-002;Manoel Nilo;Estiva/MG;Guarujá/SP;Direcionado;112km;XCMG;290km do destino
+CVM-003;PB-003;Josevaldo José;Estiva/MG;Guarujá/SP;Direcionado;345km;XCMG;290km do destino
+CVM-004;;Dorgival Silva;Cascavel/PR;Cascavel/PR;Direcionado;10km;;Seguindo para a Teixeira
