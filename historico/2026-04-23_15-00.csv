@@ -1,0 +1,6 @@
+﻿PAINEL DE STATUS DA FROTA;;;;;;;;
+Cavalo;Prancha;Motorista;Localização;Destino;Status;Km rodado;Cliente;Observação
+CVM-001;PB-001;Danilo Almeida;Guarulhos/SP;Santos/SP;Direcionado;117km;XCMG;120km do destino
+CVM-002;PB-002;Manoel Nilo;Bacabeira/MA;São Luís/MA;Carregado;512km;XCMG;50km do destino
+CVM-003;PB-003;Josevaldo José;Bacabeira/MA;São Luís/MA;Carregado;518km;XCMG;50km do destino
+CVM-004;;Dorgival Silva;Cascavel/PR;Curitiba/PR;Direcionado;17km;;Finalizou desinstalação, seguirá para Curitiba/PR
