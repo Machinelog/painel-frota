@@ -1,0 +1,5 @@
+﻿PAINEL DE STATUS DA FROTA;;;;;;;;
+Cavalo;Prancha;Motorista;Localização;Destino;Status;Km rodado;Cliente;Observação
+CVM-001;PB-001;Danilo Almeida;Vargem Grande Paulista/SP;Vargem Grande Paulista/SP;Ag. Descarregar;135km;XCMG;Finalizando entrega na ARMAC
+CVM-002;PB-002;Manoel Nilo;Palmas/TO;Pouso Alegre/MG;Direcionado;124km;XCMG;1.791km do destino
+CVM-003;PB-003;Josevaldo José;Alvorada/TO;Pouso Alegre/MG;Direcionado;110km;;1.394km do destino
