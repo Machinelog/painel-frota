@@ -1,0 +1,5 @@
+﻿PAINEL DE STATUS DA FROTA;;;;;;;;
+Cavalo;Prancha;Motorista;Localização;Destino;Status;Km rodado;Cliente;Observação
+CVM-001;PB-001;Danilo Almeida;Cubatão/SP;Guarujá/SP;Direcionado;234km;XCMG;Segue para Guarujá/SP no meio  da tarde
+CVM-002;PB-002;Manoel Nilo;Palmas/TO;;Ag. Carregar;124km;;Aguardando para realizar carregamento
+CVM-003;PB-003;Josevaldo José;Uruaçu/GO;Pouso Alegre/MG;Direcionado;324km;;1.178km do destino
