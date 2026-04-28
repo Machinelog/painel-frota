@@ -1,0 +1,5 @@
+﻿PAINEL DE STATUS DA FROTA;;;;;;;;
+Cavalo;Prancha;Motorista;Localização;Destino;Status;Km rodado;Cliente;Observação
+CVM-001;PB-001;Danilo Almeida;Santos/SP;Pouso Alegre/MG;Carregado;9km;XCMG;310km do destino
+CVM-002;PB-002;Manoel Nilo;Palmas/TO;;Ag. Carregar;0km;;Aguardando para realizar carregamento
+CVM-003;PB-003;Josevaldo José;Itumbiara/GO;Pouso Alegre/MG;Direcionado;159km;;700km do destino
