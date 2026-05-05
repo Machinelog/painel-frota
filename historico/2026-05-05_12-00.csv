@@ -1,0 +1,5 @@
+﻿PAINEL DE STATUS DA FROTA;;;;;;;;
+Cavalo;Prancha;Motorista;Localização;Destino;Status;Km rodado;Cliente;Observação
+CVM-001;PB-001;Danilo Almeida;Cascavel/PR;Cascavel/PR;Direcionado;262km;;130km do destino - Fará serviço na prancha na Teixeira
+CVM-002;PB-002;Manoel Nilo;Cascavel/PR;Cascavel/PR;Manutenção;15km;;Realizando serviço na prancha na Teixeira
+CVM-003;PB-003;Josevaldo José;Gurupi/TO;Belém/PA;Carregado;33km;XCMG;1.360km do destino - Realizando diagnóstico de falha no painel na Scania
