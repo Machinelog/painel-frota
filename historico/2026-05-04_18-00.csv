@@ -1,0 +1,5 @@
+﻿PAINEL DE STATUS DA FROTA;;;;;;;;
+Cavalo;Prancha;Motorista;Localização;Destino;Status;Km rodado;Cliente;Observação
+CVM-001;PB-001;Danilo Almeida;Prudentópolis/PR;;Ag. Gestor;192km;;305km do destino - Fará serviço na prancha na Teixeira
+CVM-002;PB-002;Manoel Nilo;Guaraniaçu/PR;Cascavel/PR;Direcionado;456km;;80km do destino - Fará serviço na prancha na Teixeira 
+CVM-003;PB-003;Josevaldo José;Figueirópolis/TO;Belém/PA;Carregado;686km;XCMG;1.400km do destino
