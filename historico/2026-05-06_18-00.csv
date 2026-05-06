@@ -1,0 +1,5 @@
+﻿PAINEL DE STATUS DA FROTA;;;;;;;;
+Cavalo;Prancha;Motorista;Localização;Destino;Status;Km rodado;Cliente;Observação
+CVM-001;PB-001;Danilo Almeida;Cascavel/PR;Pouso Alegre/MG;Direcionado;46km;;1.105km do destino
+CVM-002;PB-002;Manoel Nilo;Cascavel/PR;Pouso Alegre/MG;Direcionado;28km;;1.105km do destino
+CVM-003;PB-003;Josevaldo José;Aguiarnópolis/TO;Belém/PA;Carregado;520km;XCMG;704km do destino
