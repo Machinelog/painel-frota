@@ -1,0 +1,5 @@
+﻿PAINEL DE STATUS DA FROTA;;;;;;;;
+Cavalo;Prancha;Motorista;Localização;Destino;Status;Km rodado;Cliente;Observação
+CVM-001;PB-001;Danilo Almeida;Curitiba/PR;Pouso Alegre/MG;Direcionado;484km;;685km do destino
+CVM-002;PB-002;Manoel Nilo;Curitiba/PR;Pouso Alegre/MG;Direcionado;486km;;685km do destino
+CVM-003;PB-003;Josevaldo José;Paragominas/PA;Belém/PA;Carregado;408km;XCMG;280km do destino
