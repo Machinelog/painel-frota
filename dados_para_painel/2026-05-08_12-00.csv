@@ -1,0 +1,5 @@
+﻿PAINEL DE STATUS DA FROTA;;;;;;;;
+Cavalo;Prancha;Motorista;Localização;Destino;Status;Km rodado;Cliente;Observação
+CVM-001;PB-001;Danilo Almeida;Pouso Alegre/MG;;Ag. Carregar;250km;XCMG;Carrega 03 PC para deixar em Joel e depois volta pra carregar mais 03
+CVM-002;PB-002;Manoel Nilo;Pouso Alegre/MG;;Ag. Carregar;250km;XCMG;Carrega 03 PC para deixar em Joel e depois volta pra carregar mais 03
+CVM-003;PB-003;Josevaldo José;Marituba/PA;Pouso Alegre/MG;Direcionado;168km;;2.867km do destino
