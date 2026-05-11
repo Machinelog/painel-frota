@@ -1,0 +1,5 @@
+﻿PAINEL DE STATUS DA FROTA;;;;;;;;
+Cavalo;Prancha;Motorista;Localização;Destino;Status;Km rodado;Cliente;Observação
+CVM-001;PB-001;Danilo Almeida;Hidrolândia/GO;Palmas/TO;Carregado;452km;XCMG;886km do destino
+CVM-002;PB-002;Manoel Nilo;Hidrolândia/GO;Palmas/TO;Carregado;454km;XCMG;886km do destino
+CVM-003;PB-003;Josevaldo José;Goianésia/GO;Indaiatuba/SP;Carregado;103km;Vrental;1.072km do destino
