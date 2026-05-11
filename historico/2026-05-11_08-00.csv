@@ -1,0 +1,5 @@
+﻿PAINEL DE STATUS DA FROTA;;;;;;;;
+Cavalo;Prancha;Motorista;Localização;Destino;Status;Km rodado;Cliente;Observação
+CVM-001;PB-001;Danilo Almeida;Uberlândia/MG;Palmas/TO;Carregado;138km;XCMG;1.222km do destino
+CVM-002;PB-002;Manoel Nilo;Uberlândia/MG;Palmas/TO;Carregado;139km;XCMG;1.222km do destino
+CVM-003;PB-003;Josevaldo José;Goianésia/GO;Pouso Alegre/MG;Direcionado;53km;;1.120km do destino
