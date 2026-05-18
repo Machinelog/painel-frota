@@ -1,5 +1,5 @@
 ﻿PAINEL DE STATUS DA FROTA;;;;;;;;
 Cavalo;Prancha;Motorista;Localização;Destino;Status;Km rodado;Cliente;Observação
-CVM-001;PB-001;Danilo Almeida;Centralina/MG;Pouso Alegre/MG;Carregado;310km;XCMG;1.050km do destino
-CVM-002;PB-002;Manoel Nilo;Centralina/MG;Pouso Alegre/MG;Carregado;312km;XCMG;1.050km do destino
-CVM-003;PB-003;Josevaldo José;Vargem Grande Paulista/SP;Vargem Grande Paulista/SP;Direcionado;155km;Armac;105km do destino - Seguindo para aguardar carregamento no Eco Porto de Santos
+CVM-001;PB-001;Danilo Almeida;Centralina/MG;Palmas/TO;Carregado;310km;XCMG;1.050km do destino
+CVM-002;PB-002;Manoel Nilo;Centralina/MG;Palmas/TO;Carregado;312km;XCMG;1.050km do destino
+CVM-003;PB-003;Josevaldo José;Vargem Grande Paulista/SP;Santos/SP;Direcionado;155km;;105km do destino - Seguindo para aguardar carregamento no Eco Porto de Santos
