@@ -1,0 +1,5 @@
+﻿PAINEL DE STATUS DA FROTA;;;;;;;;
+Cavalo;Prancha;Motorista;Localização;Destino;Status;Km rodado;Cliente;Observação
+CVM-001;PB-001;Danilo Almeida;Palmas/TO;Palmas/TO;Ag. Descarregar;258km;XCMG;Realizará entrega amanhã no cliente da XCMG
+CVM-002;PB-002;Manoel Nilo;Palmas/TO;Palmas/TO;Ag. Descarregar;260km;XCMG;Realizará entrega amanhã no cliente da XCMG
+CVM-003;PB-003;Josevaldo José;Cambuí/MG;Vargem Grande Paulista/SP;Carregado;52km;XCMG;205km do destino
