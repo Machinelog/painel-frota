@@ -1,0 +1,5 @@
+﻿PAINEL DE STATUS DA FROTA;;;;;;;;
+Cavalo;Prancha;Motorista;Localização;Destino;Status;Km rodado;Cliente;Observação
+CVM-001;PB-001;Danilo Almeida;Aliança do Tocantins/TO;Pouso Alegre/MG;Direcionado;190km;;1.571km do destino
+CVM-002;PB-002;Manoel Nilo;Aliança do Tocantins/TO;Pouso Alegre/MG;Direcionado;192km;;1.571km do destino
+CVM-003;PB-003;Josevaldo José;Santos/SP;Santos/SP;Ag. Carregar;119km;XCMG;Carregando no porto
