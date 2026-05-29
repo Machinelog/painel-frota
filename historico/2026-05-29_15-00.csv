@@ -1,0 +1,6 @@
+﻿PAINEL DE STATUS DA FROTA;;;;;;;;
+Cavalo;Prancha;Motorista;Localização;Destino;Status;Km rodado;Cliente;Observação
+CVM-001;PB-001;Danilo Almeida;Pouso Alegre/MG;Palmas/TO;Carregado;29km;XCMG;Realizando revisão do cavalo p/ seguir viagem - 1.773km do destino
+CVM-002;PB-002;Manoel Nilo;Atibaia;;Direcionado;196km;;Seguindo para a PRF para apresentar regularização de irregularidades
+CVM-003;PB-003;Josevaldo José;Pouso Alegre/MG;Guarujá/SP;Carregado;332km;XCMG;Aguardando para realizar entrega XCMG
+CVM-004;PB-004;Dorgival Silva;Bragança Paulista/SP;Pouso Alegre/MG;Direcionado;534km;;135km do destino
