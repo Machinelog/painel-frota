@@ -1,0 +1,6 @@
+﻿PAINEL DE STATUS DA FROTA;;;;;;;;
+Cavalo;Prancha;Motorista;Localização;Destino;Status;Km rodado;Cliente;Observação
+CVM-001;PB-001;Danilo Almeida;Itapaci/GO;Pouso Alegre/MG;Direcionado;589km;;1.147km do destino - para em Itumbiara/GO para serviço de freio no cavalo
+CVM-002;PB-002;Manoel Nilo;Águas Vermelhas/MG;Salvador/BA;Carregado;578km;XCMG;652km do destino
+CVM-003;PB-003;Josevaldo José;Porto Nacional/TO;Pouso Alegre/MG;Direcionado;581km;;1.776km do destino
+CVM-004;PB-004;Dorgival Silva;Águas Vermelhas/MG;Salvador/BA;Carregado;659km;XCMG;652km do destino
