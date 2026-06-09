@@ -1,0 +1,6 @@
+﻿PAINEL DE STATUS DA FROTA;;;;;;;;
+Cavalo;Prancha;Motorista;Localização;Destino;Status;Km rodado;Cliente;Observação
+CVM-001;PB-001;Danilo Almeida;Santa Rita do Passa Quatro/SP;Cravinhos/SP;Carregado;269km;Armac;45km do destino
+CVM-002;PB-002;Eliel Rodrigues;Jaguaquara/BA;Pouso Alegre/MG;Direcionado;122km;;1.452km do destino
+CVM-003;PB-003;Josevaldo José;Santa Rita do Passa Quatro/SP;Cravinhos/SP;Carregado;273km;Armac;45km do destino
+CVM-004;PB-004;Francisco Aurélio;Jaguaquara/BA;Pouso Alegre/MG;Direcionado;126km;;1.452km do destino
