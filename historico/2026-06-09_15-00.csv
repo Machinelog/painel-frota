@@ -1,0 +1,6 @@
+﻿PAINEL DE STATUS DA FROTA;;;;;;;;
+Cavalo;Prancha;Motorista;Localização;Destino;Status;Km rodado;Cliente;Observação
+CVM-001;PB-001;Danilo Almeida;Itatiba/SP;Pouso Alegre/MG;Direcionado;554km;;190km do destino
+CVM-002;PB-002;Eliel Rodrigues;Divisa Alegre/MG;Pouso Alegre/MG;Direcionado;431km;;1.148km do destino
+CVM-003;PB-003;Josevaldo José;Itatiba/SP;Pouso Alegre/MG;Direcionado;562km;;190km do destino
+CVM-004;PB-004;Francisco Aurélio;Águas Vermelhas/MG;Pouso Alegre/MG;Direcionado;444km;;1.148km do destino
