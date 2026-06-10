@@ -1,0 +1,6 @@
+﻿PAINEL DE STATUS DA FROTA;;;;;;;;
+Cavalo;Prancha;Motorista;Localização;Destino;Status;Km rodado;Cliente;Observação
+CVM-001;PB-001;Danilo Almeida;Carmópolis de Minas/MG;Pouso Alegre/MG;Carregado;268km;XCMG;130km do destino
+CVM-002;PB-002;Eliel Rodrigues;Sete Lagoas/MG;Pouso Alegre/MG;Direcionado;570km;;430km do destino
+CVM-003;PB-003;Josevaldo José;Carmópolis de Minas/MG;Pouso Alegre/MG;Carregado;269km;XCMG;130km do destino
+CVM-004;PB-004;Francisco Aurélio;Sete Lagoas/MG;Pouso Alegre/MG;Direcionado;587km;;430km do destino
