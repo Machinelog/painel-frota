@@ -1,0 +1,6 @@
+﻿PAINEL DE STATUS DA FROTA;;;;;;;;
+Cavalo;Prancha;Motorista;Localização;Destino;Status;Km rodado;Cliente;Observação
+CVM-001;PB-001;Danilo Almeida;Careaçu/MG;Vargem Grande Paulista/SP;Direcionado;424km;;279km do destino
+CVM-002;PB-002;Eliel Rodrigues;Pouso Alegre/MG;Vargem Grande Paulista/SP;Direcionado;330km;;226km do destino
+CVM-003;PB-003;Josevaldo José;Três Corações/MG;Vargem Grande Paulista/SP;Direcionado;402km;;310km do destino
+CVM-004;PB-004;Francisco Aurélio;Pouso Alegre/MG;Vargem Grande Paulista/SP;Direcionado;340km;;226km do destino
