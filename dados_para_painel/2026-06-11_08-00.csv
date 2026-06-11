@@ -1,0 +1,6 @@
+﻿PAINEL DE STATUS DA FROTA;;;;;;;;
+Cavalo;Prancha;Motorista;Localização;Destino;Status;Km rodado;Cliente;Observação
+CVM-001;PB-001;Danilo Almeida;Contagem/MG;Contagem/MG;Carregado;81km;XCMG;Realizando entrega no cliente da XCMG
+CVM-002;PB-002;Eliel Rodrigues;Itatiaiuçu/MG;Pouso Alegre/MG;Direcionado;0km;;321km do destino
+CVM-003;PB-003;Josevaldo José;Contagem/MG;Contagem/MG;Carregado;82km;XCMG;Realizando entrega no cliente da XCMG
+CVM-004;PB-004;Francisco Aurélio;Itatiaiuçu/MG;Pouso Alegre/MG;Direcionado;0km;;321km do destino
