@@ -1,6 +1,6 @@
 ﻿PAINEL DE STATUS DA FROTA;;;;;;;;
 Cavalo;Prancha;Motorista;Localização;Destino;Status;Km rodado;Cliente;Observação
-CVM-001;PB-001;Danilo Almeida;Cotia/SP;Vargem Grande Paulista/SP;Direcionado;199km;;20km do destino
-CVM-002;PB-002;Eliel Rodrigues;Cotia/SP;Vargem Grande Paulista/SP;Direcionado;201km;;20km do destino
-CVM-003;PB-003;Josevaldo José;Vargem Grande Paulista/SP;;Ag. Carregar;228km;Armac;Aguardando para carregar na Armac
-CVM-004;PB-004;Francisco Aurélio;Cotia/SP;Vargem Grande Paulista/SP;Direcionado;208km;;20km do destino
+CVM-001;PB-001;Danilo Almeida;Vargem Grande Paulista/SP;;Ag. Carregar;225km;Armac;20km do destino
+CVM-002;PB-002;Eliel Rodrigues;Vargem Grande Paulista/SP;;Ag. Carregar;225km;Armac;20km do destino
+CVM-003;PB-003;Josevaldo José;Vargem Grande Paulista/SP;;Ag. Carregar;229km;Armac;Aguardando para carregar na Armac
+CVM-004;PB-004;Francisco Aurélio;Vargem Grande Paulista/SP;;Ag. Carregar;225km;Armac;20km do destino
