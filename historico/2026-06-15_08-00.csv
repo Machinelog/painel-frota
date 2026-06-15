@@ -1,0 +1,6 @@
+﻿PAINEL DE STATUS DA FROTA;;;;;;;;
+Cavalo;Prancha;Motorista;Localização;Destino;Status;Km rodado;Cliente;Observação
+CVM-001;PB-001;Danilo Almeida;Rianópolis/GO;Parauapebas/PA;Carregado;106km;Armac;1.315km do destino
+CVM-002;PB-002;Eliel Rodrigues;Rianópolis/GO;Parauapebas/PA;Carregado;107km;Armac;1.315km do destino
+CVM-003;PB-003;Josevaldo José;Nova Santa Rita/RS;Nova Santa Rita/RS;Ag. Descarregar;0km;Armac;Aguardando para realizar entraga na Armac
+CVM-004;PB-004;Francisco Aurélio;Rianópolis/GO;Parauapebas/PA;Carregado;110km;Armac;1.315km do destino
