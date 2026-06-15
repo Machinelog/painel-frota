@@ -1,0 +1,6 @@
+﻿PAINEL DE STATUS DA FROTA;;;;;;;;
+Cavalo;Prancha;Motorista;Localização;Destino;Status;Km rodado;Cliente;Observação
+CVM-001;PB-001;Danilo Almeida;Cariri do Tocantins/TO;Parauapebas/PA;Carregado;537km;Armac;859km do destino
+CVM-002;PB-002;Eliel Rodrigues;Cariri do Tocantins/TO;Parauapebas/PA;Carregado;539km;Armac;859km do destino
+CVM-003;PB-003;Josevaldo José;Itapema/SC;Pouso Alegre/MG;Direcionado;526km;Armac;840km de PA/MG - Seguindo para o Sudeste carrega em SP ou PA/MG
+CVM-004;PB-004;Francisco Aurélio;Cariri do Tocantins/TO;Parauapebas/PA;Carregado;554km;Armac;859km do destino
