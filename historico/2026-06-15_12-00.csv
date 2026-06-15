@@ -1,0 +1,6 @@
+﻿PAINEL DE STATUS DA FROTA;;;;;;;;
+Cavalo;Prancha;Motorista;Localização;Destino;Status;Km rodado;Cliente;Observação
+CVM-001;PB-001;Danilo Almeida;Mara Rosa/GO;Parauapebas/PA;Carregado;271km;Armac;1.155km do destino
+CVM-002;PB-002;Eliel Rodrigues;Mara Rosa/GO;Parauapebas/PA;Carregado;272km;Armac;1.155km do destino
+CVM-003;PB-003;Josevaldo José;Terra de Areia/RS;Pouso Alegre/MG;Direcionado;154km;Armac;1.212km de PA/MG - Seguindo para o Sudeste carrega em SP ou PA/MG
+CVM-004;PB-004;Francisco Aurélio;Mara Rosa/GO;Parauapebas/PA;Carregado;279km;Armac;1.155km do destino
