@@ -1,0 +1,6 @@
+﻿PAINEL DE STATUS DA FROTA;;;;;;;;
+Cavalo;Prancha;Motorista;Localização;Destino;Status;Km rodado;Cliente;Observação
+CVM-001;PB-001;Danilo Almeida;Guaraí/TO;Parauapebas/PA;Carregado;339km;Armac;534km do destino
+CVM-002;PB-002;Eliel Rodrigues;Guaraí/TO;Parauapebas/PA;Carregado;341km;Armac;534km do destino
+CVM-003;PB-003;Josevaldo José;Camanducaia/MG;Pouso Alegre/MG;Direcionado;661km;Armac;58km do destino
+CVM-004;PB-004;Francisco Aurélio;Guaraí/TO;Parauapebas/PA;Carregado;347km;Armac;534km do destino
