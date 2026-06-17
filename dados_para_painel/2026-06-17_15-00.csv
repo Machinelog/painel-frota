@@ -1,0 +1,6 @@
+﻿PAINEL DE STATUS DA FROTA;;;;;;;;
+Cavalo;Prancha;Motorista;Localização;Destino;Status;Km rodado;Cliente;Observação
+CVM-001;PB-001;Danilo Almeida;Marabá/PA;Parauapebas/PA;Carregado;371km;Armac;155km do destino
+CVM-002;PB-002;Eliel Rodrigues;Marabá/PA;Parauapebas/PA;Carregado;372km;Armac;155km do destino
+CVM-003;PB-003;Josevaldo José;Pouso Alegre;;Direcionado;52km;;Segue amanhã para carregar na XCMG
+CVM-004;PB-004;Francisco Aurélio;Marabá/PA;Parauapebas/PA;Carregado;382km;Armac;155km do destino
