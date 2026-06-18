@@ -1,6 +1,6 @@
 ﻿PAINEL DE STATUS DA FROTA;;;;;;;;
 Cavalo;Prancha;Motorista;Localização;Destino;Status;Km rodado;Cliente;Observação
-CVM-001;PB-001;Danilo Almeida;Curionópolis/PA;Parauapebas/PA;Carregado;36km;Armac;30km do destino
-CVM-002;PB-002;Eliel Rodrigues;Curionópolis/PA;Parauapebas/PA;Carregado;38km;Armac;30km do destino
+CVM-001;PB-001;Danilo Almeida;Parauapebas/PA;Parauapebas/PA;Ag. Descarregar;36km;Armac;Dando entrada para realizar entrega na Armac
+CVM-002;PB-002;Eliel Rodrigues;Parauapebas/PA;Parauapebas/PA;Ag. Descarregar;38km;Armac;Dando entrada para realizar entrega na Armac
 CVM-003;PB-003;Josevaldo José;Pouso Alegre/MG;;Ag. Gestor;0km;;Planejando manutenção de freios para hoje, segue amanhã para carregar na XCMG
-CVM-004;PB-004;Francisco Aurélio;Curionópolis/PA;Parauapebas/PA;Carregado;48km;Armac;30km do destino
+CVM-004;PB-004;Francisco Aurélio;Parauapebas/PA;Parauapebas/PA;Ag. Descarregar;48km;Armac;Dando entrada para realizar entrega na Armac
