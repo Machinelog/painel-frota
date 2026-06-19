@@ -1,0 +1,6 @@
+﻿PAINEL DE STATUS DA FROTA;;;;;;;;
+Cavalo;Prancha;Motorista;Localização;Destino;Status;Km rodado;Cliente;Observação
+CVM-001;PB-001;Danilo Almeida;Fátima/TO;Santos/SP;Direcionado;611km;;1.690km do destino
+CVM-002;PB-002;Eliel Rodrigues;Fátima/TO;Santos/SP;Direcionado;611km;;1.690km do destino
+CVM-003;PB-003;Josevaldo José;Pouso Alegre/MG;João Pessoa/PB;Carregado;27km;XCMG;2.588km do destino
+CVM-004;PB-004;Francisco Aurélio;Fátima/TO;Santos/SP;Direcionado;611km;;1.690km do destino
