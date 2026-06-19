@@ -1,0 +1,6 @@
+﻿PAINEL DE STATUS DA FROTA;;;;;;;;
+Cavalo;Prancha;Motorista;Localização;Destino;Status;Km rodado;Cliente;Observação
+CVM-001;PB-001;Danilo Almeida;Guaraí/TO;Pouso Alegre/MG;Direcionado;379km;;1.838km do destino
+CVM-002;PB-002;Eliel Rodrigues;Guaraí/TO;Pouso Alegre/MG;Direcionado;380km;;1.838km do destino
+CVM-003;PB-003;Josevaldo José;Pouso Alegre/MG;;Carregado;9km;;Deixando em Joel a segunda retirada de escavadeiras
+CVM-004;PB-004;Francisco Aurélio;Guaraí/TO;Pouso Alegre/MG;Direcionado;392km;;1.838km do destino
