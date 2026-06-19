@@ -1,0 +1,6 @@
+﻿PAINEL DE STATUS DA FROTA;;;;;;;;
+Cavalo;Prancha;Motorista;Localização;Destino;Status;Km rodado;Cliente;Observação
+CVM-001;PB-001;Danilo Almeida;Wanderlândia/TO;Pouso Alegre/MG;Direcionado;132km;;2.088km do destino
+CVM-002;PB-002;Eliel Rodrigues;Wanderlândia/TO;Pouso Alegre/MG;Direcionado;133km;;2.088km do destino
+CVM-003;PB-003;Josevaldo José;Pouso Alegre/MG;;Ag. Carregar;1km;;Carrega hoje na XCMG
+CVM-004;PB-004;Francisco Aurélio;Wanderlândia/TO;Pouso Alegre/MG;Direcionado;137km;;2.088km do destino
