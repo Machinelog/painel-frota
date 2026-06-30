@@ -1,0 +1,6 @@
+﻿PAINEL DE STATUS DA FROTA;;;;;;;;
+Cavalo;Prancha;Motorista;Localização;Destino;Status;Km rodado;Cliente;Observação
+CVM-001;PB-001;Danilo Almeida;Feira de Santana/BA;João Pessoa/PB;Carregado;87km;XCMG;913km do destino
+CVM-002;PB-002;Eliel Rodrigues;Feira de Santana/BA;João Pessoa/PB;Carregado;95km;XCMG;913km do destino
+CVM-003;PB-003;Josevaldo José;Caetanópolis/MG;João Pessoa/PB;Carregado;218km;XCMG;2.134km do destino
+CVM-004;PB-004;Francisco Aurélio;Feira de Santana/BA;São Luís/MA;Carregado;92km;XCMG;1.550km do destino - Nilo retoma o veículo em Salgueiro/PE
