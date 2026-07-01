@@ -1,0 +1,6 @@
+﻿PAINEL DE STATUS DA FROTA;;;;;;;;
+Cavalo;Prancha;Motorista;Localização;Destino;Status;Km rodado;Cliente;Observação
+CVM-001;PB-001;Danilo Almeida;Goiana/PE;João Pessoa/PB;Carregado;422km;XCMG;43km do destino
+CVM-002;PB-002;Eliel Rodrigues;Goiana/PE;João Pessoa/PB;Carregado;424km;XCMG;43km do destino
+CVM-003;PB-003;Josevaldo José;Rafael Jambeiro/BA;João Pessoa/PB;Carregado;659km;XCMG;955km do destino
+CVM-004;PB-004;Manoel Nilo;Monsenhor Gil/PI;São Luís/MA;Carregado;537km;XCMG;508km do destino
