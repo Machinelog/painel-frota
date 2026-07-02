@@ -1,0 +1,6 @@
+﻿PAINEL DE STATUS DA FROTA;;;;;;;;
+Cavalo;Prancha;Motorista;Localização;Destino;Status;Km rodado;Cliente;Observação
+CVM-001;PB-001;Danilo Almeida;Bayeux/PB;Bayeux/PB;Carregado;50km;XCMG;Aguardando para realizar entrega no cliente da XCMG
+CVM-002;PB-002;Eliel Rodrigues;Bayeux/PB;Bayeux/PB;Carregado;50km;XCMG;Aguardando para realizar entrega no cliente da XCMG
+CVM-003;PB-003;Josevaldo José;Tucano/BA;Bayeux/PB;Carregado;197km;XCMG;761km do destino
+CVM-004;PB-004;Manoel Nilo;Codó/MA;São Luís/MA;Carregado;156km;XCMG;277km do destino
