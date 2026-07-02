@@ -1,0 +1,6 @@
+﻿PAINEL DE STATUS DA FROTA;;;;;;;;
+Cavalo;Prancha;Motorista;Localização;Destino;Status;Km rodado;Cliente;Observação
+CVM-001;PB-001;Danilo Almeida;Jaboatão dos Guararapes/PE;;Manutenção;176km;XCMG;Realizando manutenção no rastreador
+CVM-002;PB-002;Eliel Rodrigues;Cabo de Santo Agostinho/PE;;Manutenção;193km;XCMG;Realizando troca de rodas em borracharia
+CVM-003;PB-003;Josevaldo José;Garanhuns/PE;Bayeux/PB;Carregado;542km;XCMG;374km do destino
+CVM-004;PB-004;Manoel Nilo;São Luís/MA;São Luís/MA;Carregado;503km;XCMG;Aguardando para realizar entrega no cliente da XCMG
