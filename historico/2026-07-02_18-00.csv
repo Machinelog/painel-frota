@@ -1,0 +1,6 @@
+﻿PAINEL DE STATUS DA FROTA;;;;;;;;
+Cavalo;Prancha;Motorista;Localização;Destino;Status;Km rodado;Cliente;Observação
+CVM-001;PB-001;Danilo Almeida;Jaboatão dos Guararapes/PE;;Ag. Gestor;183km;XCMG;Aguardando direcionamento - amanhã volta na Nordestec (Autotrac)
+CVM-002;PB-002;Eliel Rodrigues;Jaboatão dos Guararapes/PE;;Ag. Gestor;205km;XCMG;Aguardando direcionamento
+CVM-003;PB-003;Josevaldo José;São Caitano/PE;Bayeux/PB;Carregado;712km;XCMG;253km do destino
+CVM-004;PB-004;Manoel Nilo;São Luís/MA;Pouso Alegre/MG;Direcionado;503km;XCMG;2.878km do destino
