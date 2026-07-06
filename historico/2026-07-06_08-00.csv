@@ -1,6 +1,6 @@
 ﻿PAINEL DE STATUS DA FROTA;;;;;;;;
 Cavalo;Prancha;Motorista;Localização;Destino;Status;Km rodado;Cliente;Observação
-CVM-001;PB-001;Danilo Almeida;Jaguaquara/BA;Santos/SP;Direcionado;108km;;1.725km do destino
+CVM-001;PB-001;Danilo Almeida;Jaguaquara/BA;Guarujá/SP;Direcionado;108km;;1.725km do destino
 CVM-002;PB-002;Josevaldo José;Itatim/BA;;Ag. Condutor;1km;;Aguardando Edmilson
-CVM-003;PB-003;Eliel Rodrigues;Jaguaquara/BA;Santos/SP;Direcionado;64km;;1.725km do destino
-CVM-004;PB-004;Manoel Nilo;Goiatuba/GO;Santos/SP;Direcionado;124km;;823km do destino
+CVM-003;PB-003;Eliel Rodrigues;Jaguaquara/BA;Guarujá/SP;Direcionado;64km;;1.725km do destino
+CVM-004;PB-004;Manoel Nilo;Goiatuba/GO;Guarujá/SP;Direcionado;124km;;823km do destino
