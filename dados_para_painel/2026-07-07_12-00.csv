@@ -1,6 +1,6 @@
 ﻿PAINEL DE STATUS DA FROTA;;;;;;;;
 Cavalo;Prancha;Motorista;Localização;Destino;Status;Km rodado;Cliente;Observação
 CVM-001;PB-001;Danilo Almeida;Montes Claros/MG;Guarujá/SP;Direcionado;199km;;1.098km do destino
-CVM-002;PB-002;Josevaldo José;Itatim/BA;Guarujá/SP;Direcionado;0km;;1.871km do destino
+CVM-002;PB-002;Edmilson Ferreira;Itatim/BA;Guarujá/SP;Direcionado;0km;;1.871km do destino
 CVM-003;PB-003;Eliel Rodrigues;Montes Claros/MG;Guarujá/SP;Direcionado;224km;;1.098km do destino
 CVM-004;PB-004;Manoel Nilo;Limeira/SP;Guarujá/SP;Manutenção;70km;;248km do destino - Manutenção na Volvo de Limeira, previsão de saída amanhã de manhã no máximo.
