@@ -1,0 +1,6 @@
+﻿PAINEL DE STATUS DA FROTA;;;;;;;;
+Cavalo;Prancha;Motorista;Localização;Destino;Status;Km rodado;Cliente;Observação
+CVM-001;PB-001;Danilo Almeida;Montes Claros/MG;Guarujá/SP;Direcionado;200km;;1.098km do destino - Finalizando manutenção na prancha
+CVM-002;PB-002;Edmilson Ferreira;Itaquara/BA;Guarujá/SP;Direcionado;160km;;1.699km do destino
+CVM-003;PB-003;Eliel Rodrigues;Montes Claros/MG;Guarujá/SP;Direcionado;288km;;1.098km do destino
+CVM-004;PB-004;Manoel Nilo;Limeira/SP;Guarujá/SP;Manutenção;70km;;248km do destino - Manutenção na Volvo de Limeira, previsão de saída amanhã de manhã no máximo.
