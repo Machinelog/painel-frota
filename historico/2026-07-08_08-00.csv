@@ -1,0 +1,6 @@
+﻿PAINEL DE STATUS DA FROTA;;;;;;;;
+Cavalo;Prancha;Motorista;Localização;Destino;Status;Km rodado;Cliente;Observação
+CVM-001;PB-001;Danilo Almeida;Corinto/MG;Guarujá/SP;Direcionado;198km;;866km do destino
+CVM-002;PB-002;Edmilson Ferreira;Santa Cruz de Salinas/MG;Guarujá/SP;Direcionado;155km;;1.357km do destino
+CVM-003;PB-003;Eliel Rodrigues;Santo Hipólito/MG;Guarujá/SP;Direcionado;192km;;885km do destino
+CVM-004;PB-004;Manoel Nilo;Campinas/SP;Guarujá/SP;Direcionado;15km;;216km do destino
