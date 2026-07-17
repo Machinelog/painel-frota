@@ -1,6 +1,6 @@
 ﻿PAINEL DE STATUS DA FROTA;;;;;;;;
 Cavalo;Prancha;Motorista;Localização;Destino;Status;Km rodado;Cliente;Observação
-CVM-001;PB-001;Danilo Almeida;Guarujá/SP;Guarulhos/SP;Carregado;2km;XCMG;130km do destino
-CVM-002;PB-002;Edmilson Ferreira;Pouso Alegre/MG;;Ag. Descarregar;1km;XCMG;Retirou mais 02 PC para descarregar em Joel
-CVM-003;PB-003;Eliel Rodrigues;Guarujá/SP;Guarulhos/SP;Carregado;3km;XCMG;130km do destino
-CVM-004;PB-004;Manoel Nilo;Pouso Alegre/MG;Pouso Alegre/MG;Ag. Descarregar;0km;XCMG;Aguardando para realizar entrega na XCMG
+CVM-001;PB-001;Danilo Almeida;Ribeirão Pires/SP;Guarulhos/SP;Carregado;94km;XCMG;44km do destino
+CVM-002;PB-002;Edmilson Ferreira;Pouso Alegre/MG;;Ag. Descarregar;4km;XCMG;Retirou mais 02 RE para descarregar em Joel
+CVM-003;PB-003;Eliel Rodrigues;Ribeirão Pires/SP;Guarulhos/SP;Carregado;96km;XCMG;44km do destino
+CVM-004;PB-004;Manoel Nilo;Pouso Alegre/MG;;Ag. Descarregar;3km;XCMG;Retirou 02 PC para descarregar em Joel
