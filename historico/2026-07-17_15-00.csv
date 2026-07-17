@@ -1,0 +1,6 @@
+﻿PAINEL DE STATUS DA FROTA;;;;;;;;
+Cavalo;Prancha;Motorista;Localização;Destino;Status;Km rodado;Cliente;Observação
+CVM-001;PB-001;Danilo Almeida;Guarulhos/SP;Guarulhos/SP;Ag. Descarregar;138km;XCMG;Aguardando para realizar entrega na XCMG em Guarulhos/SP
+CVM-002;PB-002;Edmilson Ferreira;Vargem/SP;Pouso Alegre/MG;Direcionado;113km;XCMG;223km do destino
+CVM-003;PB-003;Eliel Rodrigues;Guarulhos/SP;Guarulhos/SP;Ag. Descarregar;141km;XCMG;Aguardando para realizar entrega na XCMG em Guarulhos/SP
+CVM-004;PB-004;Manoel Nilo;Vargem/SP;Pouso Alegre/MG;Direcionado;105km;XCMG;223km do destino
