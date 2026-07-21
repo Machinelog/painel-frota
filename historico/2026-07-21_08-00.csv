@@ -1,0 +1,6 @@
+﻿PAINEL DE STATUS DA FROTA;;;;;;;;
+Cavalo;Prancha;Motorista;Localização;Destino;Status;Km rodado;Cliente;Observação
+CVM-001;PB-001;Danilo Almeida;Vitória da Conquista/BA;Salvador/BA;Carregado;112km;XCMG;523km do destino
+CVM-002;PB-002;Edmilson Ferreira;Itapeva/MG;Guarujá/SP;Direcionado;47km;XCMG;227km do destino
+CVM-003;PB-003;Eliel Rodrigues;Vitória da Conquista/BA;Salvador/BA;Carregado;115km;XCMG;523km do destino
+CVM-004;PB-004;Manoel Nilo;Itapeva/MG;Guarujá/SP;Direcionado;51km;XCMG;227km do destino
