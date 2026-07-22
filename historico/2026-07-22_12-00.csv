@@ -1,0 +1,6 @@
+﻿PAINEL DE STATUS DA FROTA;;;;;;;;
+Cavalo;Prancha;Motorista;Localização;Destino;Status;Km rodado;Cliente;Observação
+CVM-001;PB-001;Danilo Almeida;Salvador/BA;Salvador/BA;Ag, Descarregar;215km;XCMG;Finalizando entrega no cliente da XCMG
+CVM-002;PB-002;Edmilson Ferreira;Estiva/MG;Pouso Alegre/MG;Carregado;334km;XCMG;28km do destino
+CVM-003;PB-003;Eliel Rodrigues;Salvador/BA;Salvador/BA;Ag, Descarregar;219km;XCMG;Finalizando entrega no cliente da XCMG
+CVM-004;PB-004;Manoel Nilo;Estiva/MG;Pouso Alegre/MG;Direcionado;337km;XCMG;28km do destino
