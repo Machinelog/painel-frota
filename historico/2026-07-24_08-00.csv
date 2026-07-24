@@ -1,0 +1,6 @@
+﻿PAINEL DE STATUS DA FROTA;;;;;;;;
+Cavalo;Prancha;Motorista;Localização;Destino;Status;Km rodado;Cliente;Observação
+CVM-001;PB-001;Eliel Rodrigues;Salinas/MG;Pouso Alegre/MG;Direcionado;121km;XCMG;1.011km do destino
+CVM-002;PB-002;Edmilson Ferreira;Guarujá/SP;Pouso Alegre/MG;Carregado;2km;XCMG;342km do destino
+CVM-003;PB-003;Josevaldo José;Salinas/MG;Pouso Alegre/MG;Direcionado;123km;XCMG;1.011km do destino
+CVM-004;PB-004;Manoel Nilo;Guarujá/SP;Pouso Alegre/MG;Carregado;2km;XCMG;342km do destino
