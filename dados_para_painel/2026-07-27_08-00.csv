@@ -1,0 +1,6 @@
+﻿PAINEL DE STATUS DA FROTA;;;;;;;;
+Cavalo;Prancha;Motorista;Localização;Destino;Status;Km rodado;Cliente;Observação
+CVM-001;PB-001;Eliel Rodrigues;Paraopeba/MG;Salvador/BA;Carregado;167km;XCMG;1.233km do destino
+CVM-002;PB-002;Edmilson Ferreira;Uberlândia/MG;Palmas/TO;Carregado;119km;XCMG;1.180km do destino
+CVM-003;PB-003;Josevaldo José;Paraopeba/MG;Salvador/BA;Carregado;170km;XCMG;1.233km do destino
+CVM-004;PB-004;Manoel Nilo;Uberlândia/MG;Palmas/TO;Carregado;122km;XCMG;1.180km do destino
