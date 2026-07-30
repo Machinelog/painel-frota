@@ -1,0 +1,6 @@
+﻿PAINEL DE STATUS DA FROTA;;;;;;;;
+Cavalo;Prancha;Motorista;Localização;Destino;Status;Km rodado;Cliente;Observação
+CVM-001;PB-001;Danilo Almeida;Manoel Vitorino/BA;Pouso Alegre/MG;Direcionado;302km;;1.363km do destino
+CVM-002;PB-002;Edmilson Ferreira;Goiânia/GO;Pouso Alegre/MG;Direcionado;472km;;934km do destino
+CVM-003;PB-003;Josevaldo José;Manoel Vitorino/BA;Pouso Alegre/MG;Direcionado;307km;;1.363km do destino
+CVM-004;PB-004;Manoel Nilo;Goiânia/GO;Pouso Alegre/MG;Direcionado;486km;;934km do destino
