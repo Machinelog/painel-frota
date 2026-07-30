@@ -1,0 +1,6 @@
+﻿PAINEL DE STATUS DA FROTA;;;;;;;;
+Cavalo;Prancha;Motorista;Localização;Destino;Status;Km rodado;Cliente;Observação
+CVM-001;PB-001;Eliel Rodrigues;Amélia Rodrigues/BA;Pouso Alegre/MG;Direcionado;400km;;1.711km do destino
+CVM-002;PB-002;Edmilson Ferreira;Alvorada/TO;Pouso Alegre/MG;Direcionado;563km;;1.430km do destino
+CVM-003;PB-003;Josevaldo José;Amélia Rodrigues/BA;Pouso Alegre/MG;Direcionado;406km;;1.711km do destino
+CVM-004;PB-004;Manoel Nilo;Alvorada/TO;Pouso Alegre/MG;Direcionado;581km;;1.430km do destino
