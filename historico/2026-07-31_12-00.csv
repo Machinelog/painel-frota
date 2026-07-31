@@ -1,0 +1,6 @@
+﻿PAINEL DE STATUS DA FROTA;;;;;;;;
+Cavalo;Prancha;Motorista;Localização;Destino;Status;Km rodado;Cliente;Observação
+CVM-001;PB-001;Danilo Almeida;Grão Mogol/MG;Pouso Alegre/MG;Direcionado;357km;;921km do destino
+CVM-002;PB-002;Edmilson Ferreira;Leme/SP;Pouso Alegre/MG;Direcionado;298km;;238km do destino
+CVM-003;PB-003;Josevaldo José;Grão Mogol/MG;Pouso Alegre/MG;Direcionado;362km;;921km do destino
+CVM-004;PB-004;Manoel Nilo;Leme/SP;Pouso Alegre/MG;Direcionado;307km;;238km do destino
