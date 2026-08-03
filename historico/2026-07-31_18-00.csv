@@ -1,0 +1,6 @@
+﻿PAINEL DE STATUS DA FROTA;;;;;;;;
+Cavalo;Prancha;Motorista;Localização;Destino;Status;Km rodado;Cliente;Observação
+CVM-001;PB-001;Danilo Almeida;Bocaiúva/MG;Pouso Alegre/MG;Direcionado;537km;;740km do destino
+CVM-002;PB-002;Edmilson Ferreira;Pouso Alegre/MG;Pouso Alegre/MG;Ag. Carregar;583km;XCMG;Carrega um fora de estrada em Joel
+CVM-003;PB-003;Josevaldo José;Bocaiúva/MG;Pouso Alegre/MG;Direcionado;544km;;740km do destino
+CVM-004;PB-004;Manoel Nilo;Pouso Alegre/MG;Pouso Alegre/MG;Ag. Carregar;601km;XCMG;Carrega um fora de estrada em Joel
