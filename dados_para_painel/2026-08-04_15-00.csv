@@ -1,0 +1,6 @@
+﻿PAINEL DE STATUS DA FROTA;;;;;;;;
+Cavalo;Prancha;Motorista;Localização;Destino;Status;Km rodado;Cliente;Observação
+CVM-001;PB-001;Danilo Almeida;Caetanópolis/MG;Pouso Alegre/MG;Ag. Gestor;0km;;Aguardando direcionamento do gestor
+CVM-002;PB-002;Edmilson Ferreira;Uberaba/MG;Pouso Alegre/MG;Manutenção;112km;;Fazendo serviço de troca de grampo da prancha
+CVM-003;PB-003;Josevaldo José;Caetanópolis/MG;Pouso Alegre/MG;Ag. Gestor;0km;;Aguardando direcionamento do gestor
+CVM-004;PB-004;Manoel Nilo;Uberaba/MG;Pouso Alegre/MG;Manutenção;114km;;Fazendo serviço de alinhamento
