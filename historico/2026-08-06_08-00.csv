@@ -1,0 +1,6 @@
+﻿PAINEL DE STATUS DA FROTA;;;;;;;;
+Cavalo;Prancha;Motorista;Localização;Destino;Status;Km rodado;Cliente;Observação
+CVM-001;PB-001;Danilo Almeida;Caetanópolis/MG;;Ag. Gestor;0km;;Aguardando direcionamento do gestor
+CVM-002;PB-002;Edmilson Ferreira;Ituverava/SP;Campinas/SP;Direcionado;70km;;Ficará aguardando em Campinas
+CVM-003;PB-003;Josevaldo José;Caetanópolis/MG;;Ag. Gestor;0km;;Aguardando direcionamento do gestor
+CVM-004;PB-004;Manoel Nilo;Ituverava/SP;Campinas/SP;Direcionado;72km;;Ficará aguardando em Campinas
