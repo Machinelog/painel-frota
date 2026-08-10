@@ -1,0 +1,6 @@
+﻿PAINEL DE STATUS DA FROTA;;;;;;;;
+Cavalo;Prancha;Motorista;Localização;Destino;Status;Km rodado;Cliente;Observação
+CVM-001;PB-001;Danilo Almeida;Cariacica/ES;;Ag. Carregar;0km;;Aguardando carregamento na Sanny
+CVM-002;PB-002;Edmilson Ferreira;Sumaré/SP;;Ag. Gestor;0km;;Aguardando direcionamento do gestor
+CVM-003;PB-003;Josevaldo José;Cariacica/ES;;Ag. Gestor;0km;;Aguardando carregamento na Sanny
+CVM-004;PB-004;Manoel Nilo;Sumaré/SP;;Ag. Gestor;0km;;Aguardando direcionamento do gestor
