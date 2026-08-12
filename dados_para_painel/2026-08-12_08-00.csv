@@ -1,0 +1,6 @@
+﻿PAINEL DE STATUS DA FROTA;;;;;;;;
+Cavalo;Prancha;Motorista;Localização;Destino;Status;Km rodado;Cliente;Observação
+CVM-001;PB-001;Danilo Almeida;Serra/ES;Teresina/PI;Carregado;0km;;2.510km do destino
+CVM-002;PB-002;Edmilson Ferreira;Sumaré/SP;;Ag. Gestor;0km;;Aguardando direcionamento do gestor
+CVM-003;PB-003;Josevaldo José;Serra/ES;Teresina/PI | Imperatriz/MA;Carregado;0km;;3.192km do destino
+CVM-004;PB-004;Manoel Nilo;Pouso Alegre/MG;;Ag. Gestor;0km;;Aguardando direcionamento do gestor
