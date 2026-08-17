@@ -1,0 +1,6 @@
+﻿PAINEL DE STATUS DA FROTA;;;;;;;;
+Cavalo;Prancha;Motorista;Localização;Destino;Status;Km rodado;Cliente;Observação
+CVM-001;PB-001;Danilo Almeida;Monsenhor Gil/PI;Teresina/PI;Carregado;36km;Fourmaq;60km do destino
+CVM-002;PB-002;Edmilson Ferreira;Santos/SP;;Ag. Gestor;0km;;Carrega no porto de Santos 
+CVM-003;PB-003;Josevaldo José;Monsenhor Gil/PI;Teresina/PI | Imperatriz/MA;Carregado;67km;Fourmaq;735km do destino
+CVM-004;PB-004;Manoel Nilo;Santos/SP;;Ag. Gestor;0km;;Carrega no porto de Santos 
