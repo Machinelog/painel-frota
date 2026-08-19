@@ -1,0 +1,6 @@
+﻿PAINEL DE STATUS DA FROTA;;;;;;;;
+Cavalo;Prancha;Motorista;Localização;Destino;Status;Km rodado;Cliente;Observação
+CVM-001;PB-001;Danilo Almeida;Redenção do Gurgéia/PI;Santos/SP;Direcionado;559km;;2.095km do destino
+CVM-002;PB-002;Edmilson Ferreira;Pouso Alegre/MG;Santos/SP;Direcionado;345km;;290km do destino
+CVM-003;PB-003;Josevaldo José;Imperatriz/MA;Imperatriz/MA;Carregado;555km;Fourmaq;Aguardando para realizar entrega
+CVM-004;PB-004;Manoel Nilo;Pouso Alegre/MG;Santos/SP;Direcionado;355km;;290km do destino
