@@ -1,0 +1,6 @@
+﻿PAINEL DE STATUS DA FROTA;;;;;;;;
+Cavalo;Prancha;Motorista;Localização;Destino;Status;Km rodado;Cliente;Observação
+CVM-001;PB-001;Danilo Almeida;Paracatu/MG;Santos/SP;Direcionado;364km;;937km do destino
+CVM-002;PB-002;Edmilson Ferreira;Itapeva/MG;Pouso Alegre/MG;Carregado;274km;XCMG;70km do destino
+CVM-003;PB-003;Josevaldo José;Presidente Dutra/MA;Joselândia/MA;Carregado;466km;Fourmaq;60km do destino
+CVM-004;PB-004;Manoel Nilo;Itapeva/MG;Pouso Alegre/MG;Carregado;282km;XCMG;70km do destino
