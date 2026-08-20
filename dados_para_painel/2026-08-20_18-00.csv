@@ -1,0 +1,6 @@
+﻿PAINEL DE STATUS DA FROTA;;;;;;;;
+Cavalo;Prancha;Motorista;Localização;Destino;Status;Km rodado;Cliente;Observação
+CVM-001;PB-001;Danilo Almeida;Paracatu/MG;Santos/SP;Direcionado;732km;;774km do destino
+CVM-002;PB-002;Edmilson Ferreira;Pouso Alegre/MG;Pouso Alegre/MG;Ag. Descarregar;347km;XCMG;Aguardando para entregar o Fora de Estrada que ficou em Joel
+CVM-003;PB-003;Josevaldo José;São José dos Basílios/MA;Santos/SP;Direcionado;531km;;2.611km do destino
+CVM-004;PB-004;Manoel Nilo;Pouso Alegre/MG;Pouso Alegre/MG;Ag. Descarregar;356km;XCMG;Aguardando para entregar o Fora de Estrada que ficou em Joel
