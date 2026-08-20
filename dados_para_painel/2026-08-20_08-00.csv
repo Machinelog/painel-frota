@@ -1,6 +1,6 @@
 ﻿PAINEL DE STATUS DA FROTA;;;;;;;;
 Cavalo;Prancha;Motorista;Localização;Destino;Status;Km rodado;Cliente;Observação
 CVM-001;PB-001;Danilo Almeida;Brasília/DF;Santos/SP;Direcionado;177km;;1.042km do destino
-CVM-002;PB-002;Edmilson Ferreira;Bom Jesus dos Perdões/SP;Santos/SP;Carregado;205km;XCMG;163km do destino
+CVM-002;PB-002;Edmilson Ferreira;Bom Jesus dos Perdões/SP;Pouso Alegre/MG;Carregado;205km;XCMG;163km do destino
 CVM-003;PB-003;Josevaldo José;Grajaú/MA;Joselândia/MA;Carregado;209km;Fourmaq;273km do destino
-CVM-004;PB-004;Manoel Nilo;Bom Jesus dos Perdões/SP;Santos/SP;Carregado;209km;XCMG;163km do destino
+CVM-004;PB-004;Manoel Nilo;Bom Jesus dos Perdões/SP;Pouso Alegre/MG;Carregado;209km;XCMG;163km do destino
