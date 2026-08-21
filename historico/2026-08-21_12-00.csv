@@ -1,0 +1,6 @@
+﻿PAINEL DE STATUS DA FROTA;;;;;;;;
+Cavalo;Prancha;Motorista;Localização;Destino;Status;Km rodado;Cliente;Observação
+CVM-001;PB-001;Danilo Almeida;Careaçu/MG;Santos/SP;Direcionado;438km;;356km do destino
+CVM-002;PB-002;Edmilson Ferreira;Santos/SP;Santos/SP;Direcionado;303km;;Carrega no Porto de Santos as 12:00
+CVM-003;PB-003;Josevaldo José;Jerumenha/PI;Santos/SP;Direcionado;431km;;2.458km do destino
+CVM-004;PB-004;Manoel Nilo;Santos/SP;Santos/SP;Direcionado;313km;;Carrega no Porto de Santos as 12:00
