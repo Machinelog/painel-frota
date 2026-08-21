@@ -1,0 +1,6 @@
+﻿PAINEL DE STATUS DA FROTA;;;;;;;;
+Cavalo;Prancha;Motorista;Localização;Destino;Status;Km rodado;Cliente;Observação
+CVM-001;PB-001;Danilo Almeida;Itatiaiuçu/MG;Santos/SP;Direcionado;163km;;664km do destino
+CVM-002;PB-002;Edmilson Ferreira;Bragança Paulista/SP;Santos/SP;Direcionado;117km;;201km do destino
+CVM-003;PB-003;Josevaldo José;Monsenhor Gil/PI;Santos/SP;Direcionado;195km;;2.683km do destino
+CVM-004;PB-004;Manoel Nilo;Bragança Paulista/SP;Santos/SP;Direcionado;121km;;201km do destino
