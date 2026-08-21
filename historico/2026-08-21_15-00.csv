@@ -1,0 +1,6 @@
+﻿PAINEL DE STATUS DA FROTA;;;;;;;;
+Cavalo;Prancha;Motorista;Localização;Destino;Status;Km rodado;Cliente;Observação
+CVM-001;PB-001;Danilo Almeida;Pouso Alegre/MG;Santos/SP;Manutenção;494km;;Correção de falha na transmissão do caminhão
+CVM-002;PB-002;Edmilson Ferreira;Santos/SP;Santos/SP;Ag. Carregar;305km;;Carregando no Eco Porto
+CVM-003;PB-003;Josevaldo José;Eliseu Martins/PI;Santos/SP;Direcionado;615km;;2.185km do destino
+CVM-004;PB-004;Manoel Nilo;Santos/SP;Santos/SP;Ag. Carregar;315km;;Carregando no Eco Porto
