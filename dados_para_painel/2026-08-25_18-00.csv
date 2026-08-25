@@ -1,0 +1,6 @@
+﻿PAINEL DE STATUS DA FROTA;;;;;;;;
+Cavalo;Prancha;Motorista;Localização;Destino;Status;Km rodado;Cliente;Observação
+CVM-001;PB-001;Danilo Almeida;Bom Jesus dos Perdões/SP;Pouso Alegre/MG;Carregado;305km;XCMG;141km do destino
+CVM-002;PB-002;Edmilson Ferreira;Bom Jesus dos Perdões/SP;Pouso Alegre/MG;Carregado;305km;XCMG;141km do destino
+CVM-003;PB-003;Josevaldo José;São Sebastião da Bela Vista/MG;Santos/SP;Manutenção;110km;;Serviço de mola, tirante e alinhamento da prancha
+CVM-004;PB-004;Manoel Nilo;Bom Jesus dos Perdões/SP;Pouso Alegre/MG;Carregado;312km;XCMG;141km do destino
