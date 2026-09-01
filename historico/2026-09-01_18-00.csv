@@ -1,0 +1,6 @@
+﻿PAINEL DE STATUS DA FROTA;;;;;;;;
+Cavalo;Prancha;Motorista;Localização;Destino;Status;Km rodado;Cliente;Observação
+CVM-001;PB-001;Danilo Almeida;Pouso Alegre/MG;Pouso Alegre/MG;Ag. Descarregar;346km;XCMG;Aguardando para realizar entrega na XCMG
+CVM-002;PB-002;Edmilson Ferreira;Pouso Alegre/MG;Pouso Alegre/MG;Ag. Descarregar;346km;XCMG;Aguardando para realizar entrega na XCMG
+CVM-003;PB-003;Josevaldo José;Pouso Alegre/MG;Pouso Alegre/MG;Ag. Descarregar;350km;XCMG;Aguardando para realizar entrega na XCMG
+CVM-004;PB-004;Manoel Nilo;Uberlândia/MG;São Luís/MA;Carregado;697km;XCMG;2.368km do destino
