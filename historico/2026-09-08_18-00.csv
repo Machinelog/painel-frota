@@ -1,0 +1,6 @@
+﻿PAINEL DE STATUS DA FROTA;;;;;;;;
+Cavalo;Prancha;Motorista;Localização;Destino;Status;Km rodado;Cliente;Observação
+CVM-001;PB-001;Danilo Almeida;São Luís/MA;São Luís/MA;Carregado;306km;XCMG;Realiza entrega amanhã de manhã no cliente da XCMG
+CVM-002;PB-002;Edmilson Ferreira;Pouso Alegre/MG;;Manutenção;11km;XCMG;Realizando orçamento de serviço na Volvo
+CVM-003;PB-003;Josevaldo José;Pouso Alegre/MG;;Ag. Descarregar;320km;XCMG;Aguardando para realizar entrega na XCMG
+CVM-004;PB-004;Manoel Nilo;Demerval Lobão/PI;Gurupi/TO;Carregado;378km;Fourmaq;1.259km do destino
