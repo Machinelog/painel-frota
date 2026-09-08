@@ -1,0 +1,6 @@
+﻿PAINEL DE STATUS DA FROTA;;;;;;;;
+Cavalo;Prancha;Motorista;Localização;Destino;Status;Km rodado;Cliente;Observação
+CVM-001;PB-001;Danilo Almeida;Jaraguá/GO;São Luís/MA;Carregado;488km;XCMG;1.903km do destino
+CVM-002;PB-002;Edmilson Ferreira;Estiva/MG;Santos/SP;Direcionado;72km;XCMG;248km do destino - Carrega amanhã cedo na TMDL
+CVM-003;PB-003;Josevaldo José;Estiva/MG;Santos/SP;Direcionado;65km;XCMG;248km do destino - Carrega amanhã cedo na TMDL
+CVM-004;PB-004;Manoel Nilo;Dom Pedro/MA;São Luís/MA;Carregado;636km;XCMG;318km do destino
