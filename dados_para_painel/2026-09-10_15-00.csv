@@ -1,0 +1,6 @@
+﻿PAINEL DE STATUS DA FROTA;;;;;;;;
+Cavalo;Prancha;Motorista;Localização;Destino;Status;Km rodado;Cliente;Observação
+CVM-001;PB-001;Danilo Almeida;Estreito/MA;Pouso Alegre/MG;Direcionado;385km;XCMG;2.176km do destino
+CVM-002;PB-002;Edmilson Ferreira;Pouso Alegre/MG;;Manutenção;3km;XCMG;Caminhão na Volvo e motorista irá retirar de Joel os FDE rodando
+CVM-003;PB-003;Josevaldo José;Pouso Alegre/MG;;Manutenção;37km;XCMG;Caminhão em revisão e motorista irá retirar de Joel os FDE rodando
+CVM-004;PB-004;Manoel Nilo;Brasilândia do Tocantins/TO;Gurupi/TO;Carregado;350km;Fourmaq;390km do destino
