@@ -1,0 +1,6 @@
+﻿PAINEL DE STATUS DA FROTA;;;;;;;;
+Cavalo;Prancha;Motorista;Localização;Destino;Status;Km rodado;Cliente;Observação
+CVM-001;PB-001;Danilo Almeida;Barrolândia/TO;Pouso Alegre/MG;Direcionado;207km;;1.782km do destino
+CVM-002;PB-002;Edmilson Ferreira;Pouso Alegre/MG;;Ag. Gestor;0km;;Aguardando orientações
+CVM-003;PB-003;Josevaldo José;São Sebastião da Bela Vista/MG;;Ag. Gestor;19km;;Aguardando orientações
+CVM-004;PB-004;Manoel Nilo;Paraíso do Tocantins/TO;Gurupi/TO;Carregado;100km;Fourmaq;180km do destino
