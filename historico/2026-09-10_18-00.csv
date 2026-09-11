@@ -1,0 +1,6 @@
+﻿PAINEL DE STATUS DA FROTA;;;;;;;;
+Cavalo;Prancha;Motorista;Localização;Destino;Status;Km rodado;Cliente;Observação
+CVM-001;PB-001;Danilo Almeida;Nova Olinda/TO;Pouso Alegre/MG;Direcionado;643km;;1.993km do destino
+CVM-002;PB-002;Edmilson Ferreira;Pouso Alegre/MG;;Manutenção;30km;;Aguardando orientações
+CVM-003;PB-003;Josevaldo José;Pouso Alegre/MG;;Manutenção;37km;;Cavalo em revisão na Volvo
+CVM-004;PB-004;Manoel Nilo;Mira Norte/TO;Gurupi/TO;Carregado;463km;Fourmaq;281km do destino
