@@ -1,0 +1,6 @@
+﻿PAINEL DE STATUS DA FROTA;;;;;;;;
+Cavalo;Prancha;Motorista;Localização;Destino;Status;Km rodado;Cliente;Observação
+CVM-001;PB-001;Danilo Almeida;Gurupi/TO;Pouso Alegre/MG;Direcionado;460km;;1.572km do destino
+CVM-002;PB-002;Edmilson Ferreira;Pouso Alegre/MG;;Ag. Gestor;0km;;Aguardando orientações
+CVM-003;PB-003;Josevaldo José;Pouso Alegre/MG;;Ag. Gestor;54km;;Aguardando orientações
+CVM-004;PB-004;Manoel Nilo;Peixe/TO;Gurupi/TO;Ag. Descarregar;322km;Fourmaq;Aguardando para realizar entrega no cliente da Fourmaq
