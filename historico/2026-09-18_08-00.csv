@@ -1,0 +1,6 @@
+﻿PAINEL DE STATUS DA FROTA;;;;;;;;
+Cavalo;Prancha;Motorista;Localização;Destino;Status;Km rodado;Cliente;Observação
+CVM-001;PB-001;Danilo Almeida;Guarujá/SP;;Ag. Carregar;59km;;Carrega no porto de santos agora as 09:00  (aguardando pra imprimir documentação)
+CVM-002;PB-002;Edmilson Ferreira;Pirassununga/SP;Catalão/GO;Carregado;157km;HONGDA;477km do destino
+CVM-003;PB-003;Josevaldo José;Pirassununga/SP;Catalão/GO;Carregado;109km;HONGDA;477km do destino
+CVM-004;PB-004;Manoel Nilo;Sumaré/SP;;Ag. Gestor;0km;;Aguardando orientações
