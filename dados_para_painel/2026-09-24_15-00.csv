@@ -1,0 +1,6 @@
+﻿PAINEL DE STATUS DA FROTA;;;;;;;;
+Cavalo;Prancha;Motorista;Localização;Destino;Status;Km rodado;Cliente;Observação
+CVM-001;PB-001;Danilo Almeida;São Sebastião da Bela Vista/MG;Pouso Alegre/MG;Direcionado;133km;;Seguirá pra um posto pra anotar inf. de pneus (planilhar)
+CVM-002;PB-002;Edmilson Ferreira;Pouso Alegre/MG;Guarujá/SP;Direcionado;390km;XCMG;320km do destino
+CVM-003;PB-003;Josevaldo José;Pouso Alegre/MG;Pouso Alegre/MG;Ag. Gestor;225km;;Realizando manutenção corretiva na Scania
+CVM-004;PB-004;Manoel Nilo;Guarujá/SP;Pouso Alegre/MG;Ag. Frete;0km;;Aguardando carga pra retirar no Santos Brasil
