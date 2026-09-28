@@ -1,0 +1,6 @@
+﻿PAINEL DE STATUS DA FROTA;;;;;;;;
+Cavalo;Prancha;Motorista;Localização;Destino;Status;Km rodado;Cliente;Observação
+CVM-001;PB-001;Danilo Almeida;Pouso Alegre/MG;Pouso Alegre/MG;Ag. Gestor;0km;;Aguardando direcionamento
+CVM-002;PB-002;Edmilson Ferreira;Pouso Alegre/MG;Pouso Alegre/MG;Carregado;32km;XCMG;Fará inspeção para seguradora e diagnóstico de falha no painel na Volvo
+CVM-003;PB-003;Josevaldo José;Cascavel/PR;Cascavel/PR;Direcionado;0km;;Realizará reparo na prancha na fabrica da Teixeira
+CVM-004;PB-004;Manoel Nilo;Pouso Alegre/MG;Pouso Alegre/MG;Ag. Descarregar;26km;XCMG;Aguardando para realizar entrega na XCMG
