@@ -1,0 +1,6 @@
+﻿PAINEL DE STATUS DA FROTA;;;;;;;;
+Cavalo;Prancha;Motorista;Localização;Destino;Status;Km rodado;Cliente;Observação
+CVM-001;PB-001;Danilo Almeida;Iúna/ES;Palmas/TO;Carregado;220km;;1.882km do destino
+CVM-002;PB-002;Edmilson Ferreira;Cascavel/PR;Cascavel/PR;Direcionado;199km;;48km do destino
+CVM-003;PB-003;Josevaldo José;Cascavel/PR;;Manutenção;13km;;Realizando reparo na prancha na fabrica da Teixeira
+CVM-004;PB-004;Manoel Nilo;Nova Viçosa/BA;Teresina/PI;Carregado;305km;;2.129km do destino
