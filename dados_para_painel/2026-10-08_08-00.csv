@@ -1,6 +1,6 @@
 ﻿PAINEL DE STATUS DA FROTA;;;;;;;;
 Cavalo;Prancha;Motorista;Localização;Destino;Status;Km rodado;Cliente;Observação
 CVM-001;PB-001;Danilo Almeida;Lagoa Grande/MG;Pouso Alegre/MG;Direcionado;132km;;965km do destino - Tentando agendar troca do parabrisa no percurso
-CVM-002;PB-002;Edmilson Ferreira;Oliveira/MG;Pouso Alegre/MG;Carregado;186km;XCMG;1.580km do destino
-CVM-003;PB-003;Josevaldo José;Arujá/SP;Santos/SP;Carregado;106km;XCMG;236km do destino
+CVM-002;PB-002;Edmilson Ferreira;Oliveira/MG;Salvador/BA;Carregado;186km;XCMG;1.580km do destino
+CVM-003;PB-003;Josevaldo José;Arujá/SP;Pouso Alegre/MG;Carregado;106km;XCMG;236km do destino
 CVM-004;PB-004;Manoel Nilo;Araci/BA;Pouso Alegre/MG;Direcionado;216km;;1.780km do destino
