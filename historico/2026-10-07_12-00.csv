@@ -1,0 +1,6 @@
+﻿PAINEL DE STATUS DA FROTA;;;;;;;;
+Cavalo;Prancha;Motorista;Localização;Destino;Status;Km rodado;Cliente;Observação
+CVM-001;PB-001;Danilo Almeida;Rialma/GO;Pouso Alegre/MG;Direcionado;237km;;1.370km do destino - Tentando agendar troca do parabrisa no percurso
+CVM-002;PB-002;Edmilson Ferreira;Pouso Alegre/MG;Pouso Alegre/MG;Carregado;9km;XCMG;1.765km do destino - Realizando diagnóstico na Volvo
+CVM-003;PB-003;Josevaldo José;São Sebastião da Bela Vista/MG;Santos/SP;Direcionado;20km;;299km do destino
+CVM-004;PB-004;Manoel Nilo;Salgueiro/PE;Pouso Alegre/MG;Direcionado;176km;;Aguardando troca de motorista para seguir a Pouso Alegre
