@@ -1,0 +1,6 @@
+﻿PAINEL DE STATUS DA FROTA;;;;;;;;
+Cavalo;Prancha;Motorista;Localização;Destino;Status;Km rodado;Cliente;Observação
+CVM-001;PB-001;Danilo Almeida;Contagem/MG;Pouso Alegre/MG;Direcionado;99km;;Aguardando troca de parabrisa em Contagem
+CVM-002;PB-002;Edmilson Ferreira;Bocaiúva/MG;Salvador/BA;Carregado;73km;XCMG;1.055km do destino
+CVM-003;PB-003;Josevaldo José;Pouso Alegre/MG;Pouso Alegre/MG;Ag. Descarregar;1km;XCMG;Realizando entrega na XCMG
+CVM-004;PB-004;Manoel Nilo;Águas Vermelhas/MG;Pouso Alegre/MG;Direcionado;157km;;1.133km do destino
