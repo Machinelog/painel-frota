@@ -1,0 +1,6 @@
+﻿PAINEL DE STATUS DA FROTA;;;;;;;;
+Cavalo;Prancha;Motorista;Localização;Destino;Status;Km rodado;Cliente;Observação
+CVM-001;PB-001;Giliel Pereira;São João do Soter/MA;Açailandia/MA | Miranorte/TO;Carregando;0km;Cemax;Seguirá até Grajaú/MA para troca de CT-e/MDF-e
+CVM-002;PB-002;Fabio Vicente;Santos/SP;Pouso Alegre/MG;Carregando;2km;XCMG;357km do destino
+CVM-003;PB-003;Josevaldo José;Santos/SP;Pouso Alegre/MG;Carregando;3km;XCMG;357km do destino
+CVM-004;PB-004;Clecio Joaquim;Poçoes/BA;Pouso Alegre/MG;Direcionado;185km;;1.316km do destino
