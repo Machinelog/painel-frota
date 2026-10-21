@@ -1,0 +1,6 @@
+﻿PAINEL DE STATUS DA FROTA;;;;;;;;
+Cavalo;Prancha;Motorista;Localização;Destino;Status;Km rodado;Cliente;Observação
+CVM-001;PB-001;Giliel Pereira;Lajeado Novo/MA;Açailandia/MA | Miranorte/TO;Carregado;472km;Cemax;810km do destino final
+CVM-002;PB-002;Fabio Vicente;Pouso Alegre/MG;Pouso Alegre/MG;Carregado;332km;XCMG;14km do destino - realiza entrega amanhã 
+CVM-003;PB-003;Josevaldo José;Pouso Alegre/MG;Pouso Alegre/MG;Carregado;336km;XCMG;14km do destino - realiza entrega amanhã 
+CVM-004;PB-004;Clecio Joaquim;Salinas/MG;Pouso Alegre/MG;Direcionado;517km;;1.005km do destino
