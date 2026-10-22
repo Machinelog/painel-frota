@@ -1,0 +1,6 @@
+﻿PAINEL DE STATUS DA FROTA;;;;;;;;
+Cavalo;Prancha;Motorista;Localização;Destino;Status;Km rodado;Cliente;Observação
+CVM-001;PB-001;Giliel Pereira;Guaraí/TO;Miranorte/TO;Carregado;341km;Cemax;53km do destino
+CVM-002;PB-002;Fabio Vicente;Pouso Alegre/MG;Maragogipe/BA;Carregado;29km;XCMG;1.700km do destino
+CVM-003;PB-003;Josevaldo José;Pouso Alegre/MG;;Ag. Carregar;3km;;Carregando no Joel 03 escavadeiras para Salvador/BA
+CVM-004;PB-004;Clecio Joaquim;São Gonçalo do Sapucaí/MG;Pouso Alegre/MG;Direcionado;408km;;70km do destino
