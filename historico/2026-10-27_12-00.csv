@@ -1,0 +1,6 @@
+﻿PAINEL DE STATUS DA FROTA;;;;;;;;
+Cavalo;Prancha;Motorista;Localização;Destino;Status;Km rodado;Cliente;Observação
+CVM-001;PB-001;Giliel Pereira;Pouso Alegre/MG;São Luís/MA;Carregado;44km;XCMG;3.077km do destino
+CVM-002;PB-002;Fabio Vicente;Muniz Ferreira/BA;Vila Velha/ES;Direcionado;192km;;1.292km do destino
+CVM-003;PB-003;Clecio Joaquim;Conceição do Jacuípe/BA;Vila Velha/ES;Direcionado;182km;;1.370km do destino
+CVM-004;PB-004;Manoel Nilo;Feira de Santana/BA;Fortaleza/CE;Carregado;132km;XCMG;969km do destino
