@@ -1,0 +1,6 @@
+﻿PAINEL DE STATUS DA FROTA;;;;;;;;
+Cavalo;Prancha;Motorista;Localização;Destino;Status;Km rodado;Cliente;Observação
+CVM-001;PB-001;Giliel Pereira;Pirenópolis/GO;São Luís/MA;Carregado;326km;XCMG;1.939km do destino
+CVM-002;PB-002;Fabio Vicente;Vila Velha/ES;;Ag. Carregar;331km;Cemax;Aguardando para carregar na Sany
+CVM-003;PB-003;Clecio Joaquim;Vila Velha/ES;;Ag. Carregar;335km;Cemax;Aguardando para carregar na Sany
+CVM-004;PB-004;Manoel Nilo;Fortaleza/CE;Fortaleza/CE;Ag. Descarregar;109km;XCMG;Realizando entrega em Fortaleza/CE
