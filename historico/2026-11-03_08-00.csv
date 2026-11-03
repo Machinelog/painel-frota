@@ -1,0 +1,6 @@
+﻿PAINEL DE STATUS DA FROTA;;;;;;;;
+Cavalo;Prancha;Motorista;Localização;Destino;Status;Km rodado;Cliente;Observação
+CVM-001;PB-001;Giliel Pereira;São Luís/MA;São Luís/MA;Carregado;0km;XCMG;Consertando pneu para realizar entrega no cliente da XCMG
+CVM-002;PB-002;Fabio Vicente;Feira de Santana/BA;Feira de Santana/BA;Carregado;63km;Cemax;1.110km do destino
+CVM-003;PB-003;Clecio Joaquim;Feira de Santana/BA;Teresina/PI;Carregado;63km;Cemax;Aguardando para troca de parabrisa - 1.110km do destino
+CVM-004;PB-004;Manoel Nilo;Igarapé/MG;Pouso Alegre/MG;Direcionado;140km;;353km do destino
