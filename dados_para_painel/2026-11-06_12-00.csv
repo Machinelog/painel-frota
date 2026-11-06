@@ -1,0 +1,6 @@
+﻿PAINEL DE STATUS DA FROTA;;;;;;;;
+Cavalo;Prancha;Motorista;Localização;Destino;Status;Km rodado;Cliente;Observação
+CVM-001;PB-001;Giliel Pereira;Cariri do Tocantins/TO;Pouso Alegre/MG;Direcionado;243km;;1.617km do destino
+CVM-002;PB-002;Fabio Vicente;Teresina/PI;Açaiândia/MA;Carregado;2km;Cemax;746km do destino
+CVM-003;PB-003;Danilo Almeida;Elesbão Veloso/PI;Teresina/PI;Carregado;320km;Cemax;158km do destino
+CVM-004;PB-004;Manoel Nilo;Pouso Alegre/MG;Guanambi/BA;Carregado;20km;XCMG;1.175km do destino
