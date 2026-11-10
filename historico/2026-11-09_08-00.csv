@@ -1,6 +1,6 @@
 ﻿PAINEL DE STATUS DA FROTA;;;;;;;;
 Cavalo;Prancha;Motorista;Localização;Destino;Status;Km rodado;Cliente;Observação
 CVM-001;PB-001;Giliel Pereira;São Sebastião da Bela Vista/MG;Pouso Alegre/MG;Direcionado;36km;;Fará serviço de alinhamento depois carrega em Joel
-CVM-002;PB-002;Fabio Vicente;Governador Edison Lobão/MA;Pouso Alegre/MG;Direcionado;97km;Cemax;2.403km do destino
-CVM-003;PB-003;Danilo Almeida;Feira de Santana/BA;;Ag. Carrega;0km;Cemax;Realizará carregamento em Feira de Santana/BA entre hoje e amanhã
+CVM-002;PB-002;Fabio Vicente;Governador Edison Lobão/MA;Pouso Alegre/MG;Direcionado;97km;;2.403km do destino
+CVM-003;PB-003;Danilo Almeida;Feira de Santana/BA;;Ag. Carrega;0km;;Realizará carregamento em Feira de Santana/BA entre hoje e amanhã
 CVM-004;PB-004;Manoel Nilo;Guanambi/BA;Guanambi/BA;Ag. Descarregar;160km;XCMG;Aguardando para realizar entrega no cliente da XCMG
