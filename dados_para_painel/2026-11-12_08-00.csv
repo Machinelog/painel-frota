@@ -1,0 +1,6 @@
+﻿PAINEL DE STATUS DA FROTA;;;;;;;;
+Cavalo;Prancha;Motorista;Localização;Destino;Status;Km rodado;Cliente;Observação
+CVM-001;PB-001;Giliel Pereira;Porteirinha/MG;Cariacica/ES;Carregado;77km;XCMG;1.126km do destino
+CVM-002;PB-002;Fabio Vicente;Bom Jesus da Lapa/BA;Vitória da Conquista/BA;Direcionado;143km;;310km do destino
+CVM-003;PB-003;Danilo Almeida;Itatim/BA;Sertãozinho/SP;Carregado;144km;Augurio;1.629km do destino
+CVM-004;PB-004;Manoel Nilo;Estiva/MG;Betim/MG;Carregado;0km;XCMG;5km do destino  - descarrega no Truck Park em Betim/MG
