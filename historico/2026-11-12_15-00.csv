@@ -1,0 +1,6 @@
+﻿PAINEL DE STATUS DA FROTA;;;;;;;;
+Cavalo;Prancha;Motorista;Localização;Destino;Status;Km rodado;Cliente;Observação
+CVM-001;PB-001;Giliel Pereira;Grão Mogol/MG;Cariacica/ES;Carregado;285km;XCMG;985km do destino
+CVM-002;PB-002;Fabio Vicente;Caraíbas/BA;Vitória da Conquista/BA;Direcionado;438km;;70km do destino
+CVM-003;PB-003;Danilo Almeida;Vitória da Conquista/BA;Sertãozinho/SP;Carregado;411km;Augurio;1.455km do destino
+CVM-004;PB-004;Manoel Nilo;Estiva/MG;;Ag. Carregar;26km;XCMG;Carrega na XCMG hoje
