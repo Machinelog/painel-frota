@@ -1,0 +1,6 @@
+﻿PAINEL DE STATUS DA FROTA;;;;;;;;
+Cavalo;Prancha;Motorista;Localização;Destino;Status;Km rodado;Cliente;Observação
+CVM-001;PB-001;Giliel Pereira;Catuji/MG;Cariacica/ES;Carregado;311km;XCMG;602km do destino
+CVM-002;PB-002;Edmilson Jose;Divisa Alegre/MG;Betim/MG;Direcionado;142km;;780km do destino
+CVM-003;PB-003;Danilo Almeida;Divisa Alegre/MG;Sertãozinho/SP;Carregado;144km;Augurio;1.308km do destino
+CVM-004;PB-004;Manoel Nilo;Pouso Alegre/MG;Campo Grande/MS;Carregado;19km;XCMG;Segue viagem amanhã
