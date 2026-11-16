@@ -1,0 +1,8 @@
+﻿PAINEL DE STATUS DA FROTA;;;;;;;;
+Cavalo;Prancha;Motorista;Localização;Destino;Status;Km rodado;Cliente;Observação
+CVM-001;PB-001;Giliel Pereira;Cariacica/ES;;Ag. Carregar;33km;Cemax;Carregando na Sany
+CVM-002;PB-002;Edmilson Jose;Guanambi/BA;Pouso Alegre/MG;Direcionado;443km;;1.152km do destino - Seguindo pro sudeste
+CVM-003;PB-003;Clécio Joaquim;Sumaré/SP;;Ag. Gestor;266km;;Aguardando orientaçõs do gestor
+CVM-004;PB-004;Manoel Nilo;Água Clara/MS;Sumaré/SP;Direcionado;313km;;670km do destino - Seguindo pro sudeste
+CVM-005;;Danilo Almeida;Campinas/SP;Cascavel/PR;Direcionado;15km;;Realizam revisão amanhã
+CVM-006;;Josevaldo Conceição;Campinas/SP;Cascavel/PR;Direcionado;15km;;Realizam revisão amanhã
