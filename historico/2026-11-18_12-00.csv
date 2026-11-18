@@ -1,0 +1,8 @@
+﻿PAINEL DE STATUS DA FROTA;;;;;;;;
+Cavalo;Prancha;Motorista;Localização;Destino;Status;Km rodado;Cliente;Observação
+CVM-001;PB-001;Giliel Pereira;Padre Paraíso/MG;Teresina/PI;Carregado;343km;Cemax;1.785km do destino
+CVM-002;PB-002;Edmilson Jose;Sete Lagoas/MG;Pouso Alegre/MG;Direcionado;362km;;442km do destino
+CVM-003;PB-003;Clécio Joaquim;Sumaré/SP;;Ag. Gestor;0km;;Aguardando orientaçõs do gestor
+CVM-004;;Manoel Nilo;Limeira/SP;Cascavel/PR;Direcionado;27km;;900km do destino - Seguindo para buscar a prancha.
+CVM-005;PB-005;Danilo Almeida;Limeira/SP;;Manutenção;0km;;Realizando revisão
+CVM-006;;Josevaldo Conceição;Limeira/SP;Cascavel/PR;Direcionado;0km;;900km do destino - Seguindo para buscar a prancha.
