@@ -1,0 +1,8 @@
+﻿PAINEL DE STATUS DA FROTA;;;;;;;;
+Cavalo;Prancha;Motorista;Localização;Destino;Status;Km rodado;Cliente;Observação
+CVM-001;PB-001;Giliel Pereira;Bertolínia/PI;Cabo de Santo Agostinho/PE;Carregado;343km;;1.018km do destino
+CVM-002;PB-002;Edmilson Jose;Limeira/SP;;Manutenção;0km;;Trocando baterias em garantia
+CVM-003;PB-003;Clécio Joaquim;Sumaré/SP;;Ag. Gestor;0km;;Aguardando orientaçõs do gestor
+CVM-004;PB-004;Manoel Nilo;Miracatu/SP;;Ag. Gestor;0km;;Aguardando orientaçõs do gestor
+CVM-005;PB-005;Danilo Almeida;Limeira/SP;;Manutenção;0km;;Correção de falha na NORS
+CVM-006;PB-006;Josevaldo Conceição;Miracatu/SP;;Ag. Gestor;0km;;Aguardando orientaçõs do gestor
